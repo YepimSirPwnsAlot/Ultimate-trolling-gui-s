@@ -30,7 +30,7 @@ local FlingGUI = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local Techno = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local KFC = Instance.new("TextButton")
+local Minigun = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
 local Characters = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
@@ -160,7 +160,7 @@ Main.Parent = UltimateTrollingGuiV6
 Main.BackgroundColor3 = Color3.fromRGB(137, 0, 254)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.382268965, 0, 1.18099999, 0)
-Main.Size = UDim2.new(0, 451, 0, 529)
+Main.Size = UDim2.new(0, 451, 0, 525)
 Main.Visible = true
 
 UICorner.Parent = Main
@@ -170,13 +170,13 @@ Title.Name = "Title"
 Title.Parent = Main
 Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title.BackgroundTransparency = 1.000
-Title.Position = UDim2.new(0.0600659028, 0, -0.00186577276, 0)
+Title.Position = UDim2.new(0.0600659028, 0, 0.01, 0)
 Title.Size = UDim2.new(0, 395, 0, 51)
 Title.Font = Enum.Font.SourceSans
 Title.Text = "ULTIMATE TROLLING GUI"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
-Title.TextSize = 14.000
+Title.TextSize = 20
 Title.TextWrapped = true
 
 local Welcome2 = Instance.new("TextLabel")
@@ -196,20 +196,17 @@ Welcome2.TextScaled = true
 wait(1)
 
 local messages = {
-	"Welcome to the new UTG! Have fun.",
+	"Welcome to the brand new UTG! Have fun.",
 	"Gonna Add more stuff soon.",
 	"Press keyboard commands (f,g,w,e,etc) for commands",
 	"Dm me on discord yepimsirpwnsalot for sneek-peaks",
-	"This may get a big laggy depending on what you play on",
+	"This may get a big laggy depending what you play on",
 	"Dont abuse this lmao",
-	"Follow my roblox profile, YepImSirPwnsAlot",
 	"More commands coming soon",
 	"Did you pray today?",
-	"Fun fact: i like hot goth babes",
-	"E",
 	"Whatevs lel",
-	"I got the idea to make this from Mr.Flamgo:D",
-	"Mommy tells me im special",
+	"I got the idea to make this from Mr.Flamgo :D",
+	"Mommy tells me im special :O",
 	"Old acc is SirPwnsALot, follow my old account NOW",
 }
 
@@ -221,7 +218,7 @@ local function cycleInOrder()
 		if index > #messages then
 			index = 1
 		end
-		wait(30)
+		wait(60)
 	end
 end
 
@@ -313,7 +310,7 @@ JohnDoe.Name = "JohnDoe"
 JohnDoe.Parent = ScrollingFrame
 JohnDoe.BackgroundColor3 = Color3.fromRGB(235, 190, 77)
 JohnDoe.Position = UDim2.new(0.0093457941, 0, 0.0329205021, 0)
-JohnDoe.Size = UDim2.new(0, 419, 0, 30)
+JohnDoe.Size = UDim2.new(0, 419, 0, 36)
 JohnDoe.Font = Enum.Font.SourceSansBold
 JohnDoe.Text = "    John Doe"
 JohnDoe.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -1025,7 +1022,7 @@ Banisher.TextSize = 20.000
 Banisher.TextWrapped = true
 Banisher.TextXAlignment = Enum.TextXAlignment.Left
 Banisher.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/YepimSirPwnsAlot/Ultimate-trolling-gui/refs/heads/main/Ultimate%20Trolling%20gui"))()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Banisher-42026"))()
 end)
 
 UICorner_7.Parent = Banisher
@@ -1106,7 +1103,7 @@ Goner.TextSize = 20.000
 Goner.TextWrapped = true
 Goner.TextXAlignment = Enum.TextXAlignment.Left
 Goner.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-TXT-GONER-FAKE-43271"))()
+	loadstring(Game:GetObjects("rbxassetid://4513235536")[1].Source)()
 end)
 	
 UICorner_10.Parent = Goner
@@ -1142,11 +1139,11 @@ newTag.Name = "NewTag"
 newTag.Parent = HolyWrench
 newTag.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
-newTag.Size = UDim2.new(0, 55, 0, 25)
+newTag.Size = UDim2.new(0, 55, 0, 29)
 newTag.Text = "FIXED"
 newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
 newTag.Font = Enum.Font.SourceSansBold
-newTag.TextSize = 18
+newTag.TextSize = 20
 newTag.BorderSizePixel = 0
 
 Baseplate.Name = "Baseplate"
@@ -1178,11 +1175,11 @@ newTag.Name = "NewTag"
 newTag.Parent = Baseplate
 newTag.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
-newTag.Size = UDim2.new(0, 55, 0, 25)
+newTag.Size = UDim2.new(0, 55, 0, 29)
 newTag.Text = "FIXED"
 newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
 newTag.Font = Enum.Font.SourceSansBold
-newTag.TextSize = 18
+newTag.TextSize = 20
 newTag.BorderSizePixel = 0
 
 FlingGUI.Name = "FlingGUI"
@@ -1204,11 +1201,11 @@ newTag.Name = "NewTag"
 newTag.Parent = FlingGUI
 newTag.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
-newTag.Size = UDim2.new(0, 55, 0, 25)
+newTag.Size = UDim2.new(0, 55, 0, 29)
 newTag.Text = "FIXED"
 newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
 newTag.Font = Enum.Font.SourceSansBold
-newTag.TextSize = 18
+newTag.TextSize = 20
 newTag.BorderSizePixel = 0
 
 Techno.Name = "Techno"
@@ -1237,23 +1234,26 @@ newTag.Font = Enum.Font.SourceSansBold
 newTag.TextSize = 20
 newTag.BorderSizePixel = 0
 
-KFC.Name = "KFC"
-KFC.Parent = ScrollingFrame
-KFC.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
-KFC.Position = UDim2.new(0.0093457941, 0, 0.230636418, 0)
-KFC.Size = UDim2.new(0, 419, 0, 36)
-KFC.Font = Enum.Font.SourceSansBold
-KFC.Text = "    KFC"
-KFC.TextColor3 = Color3.fromRGB(255, 255, 255)
-KFC.TextSize = 20.000
-KFC.TextWrapped = true
-KFC.TextXAlignment = Enum.TextXAlignment.Left
+Minigun.Name = "Minigun"
+Minigun.Parent = ScrollingFrame
+Minigun.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Minigun.Position = UDim2.new(0.0093457941, 0, 0.230636418, 0)
+Minigun.Size = UDim2.new(0, 419, 0, 36)
+Minigun.Font = Enum.Font.SourceSansBold
+Minigun.Text = "    Minigun"
+Minigun.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minigun.TextSize = 20.000
+Minigun.TextWrapped = true
+Minigun.TextXAlignment = Enum.TextXAlignment.Left
+Minigun.MouseButton1Dwn:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://1938411534")[1].Source)()
+end)
 
-UICorner_15.Parent = KFC
+UICorner_15.Parent = Minigun
 
 local newTag = Instance.new("TextLabel")
 newTag.Name = "NewTag"
-newTag.Parent = KFC
+newTag.Parent = Minigun
 newTag.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
 newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
 newTag.Size = UDim2.new(0, 55, 0, 29)
@@ -1276,6 +1276,18 @@ Characters.TextWrapped = true
 Characters.TextXAlignment = Enum.TextXAlignment.Left
 
 UICorner_16.Parent = Characters
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = Characters
+newTag.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "NEW"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 20
+newTag.BorderSizePixel = 0
 
 ChainSaw.Name = "ChainSaw"
 ChainSaw.Parent = ScrollingFrame
@@ -1843,7 +1855,7 @@ newTag.BorderSizePixel = 0
 
 FixedStuff.Name = "FixedStuff"
 FixedStuff.Parent = ScrollingFrame
-FixedStuff.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+FixedStuff.BackgroundColor3 = Color3.fromRGB(87, 185, 255)
 FixedStuff.Position = UDim2.new(0.0093457941, 0, 0.124283813, 0)
 FixedStuff.Size = UDim2.new(0, 419, 0, 36)
 FixedStuff.Font = Enum.Font.SourceSansBold
@@ -1858,7 +1870,7 @@ UICorner_18.Parent = FixedStuff
 local newTag = Instance.new("TextLabel")
 newTag.Name = "NewTag"
 newTag.Parent = FixedStuff
-newTag.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+newTag.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
 newTag.Size = UDim2.new(0, 55, 0, 29)
 newTag.Text = "NEW"
@@ -1878,6 +1890,9 @@ InfGaunt.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfGaunt.TextSize = 20.000
 InfGaunt.TextWrapped = true
 InfGaunt.TextXAlignment = Enum.TextXAlignment.Left
+InfGaunt.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://14363099155")[1].Source)()
+end)
 
 UICorner_19.Parent = InfGaunt
 
@@ -1904,6 +1919,9 @@ mrbyebye.TextColor3 = Color3.fromRGB(255, 255, 255)
 mrbyebye.TextSize = 20.000
 mrbyebye.TextWrapped = true
 mrbyebye.TextXAlignment = Enum.TextXAlignment.Left
+mrbyebye.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://2595582545")[1].Source)()
+end)
 
 UICorner_20.Parent = mrbyebye
 
@@ -2043,6 +2061,9 @@ KJ.TextColor3 = Color3.fromRGB(255, 255, 255)
 KJ.TextSize = 20.000
 KJ.TextWrapped = true
 KJ.TextXAlignment = Enum.TextXAlignment.Left
+KJ.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://17776365113")[1].Source)()
+end)
 
 UICorner_24.Parent = KJ
 
@@ -2095,6 +2116,9 @@ Felipe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Felipe.TextSize = 20.000
 Felipe.TextWrapped = true
 Felipe.TextXAlignment = Enum.TextXAlignment.Left
+Felipe.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://5605396200")[1].Source)()
+end)
 
 UICorner_26.Parent = Felipe
 
@@ -2170,6 +2194,9 @@ ServerAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
 ServerAdmin.TextSize = 20.000
 ServerAdmin.TextWrapped = true
 ServerAdmin.TextXAlignment = Enum.TextXAlignment.Left
+ServerAdmin.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://4665394711")[1].Source)()
+end)
 
 UICorner_28.Parent = ServerAdmin
 
@@ -2214,14 +2241,25 @@ newTag.BorderSizePixel = 0
 ElioBlasio.Name = "ElioBlasio"
 ElioBlasio.Parent = ScrollingFrame
 ElioBlasio.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
-ElioBlasio.Position = UDim2.new(0.00934579596, 0, 0.474390864, 0)
+ElioBlasio.Position = UDim2.new(0.0093, 0, 0.4744, 0)
 ElioBlasio.Size = UDim2.new(0, 419, 0, 36)
 ElioBlasio.Font = Enum.Font.SourceSansBold
 ElioBlasio.Text = "    Elio Blasio"
 ElioBlasio.TextColor3 = Color3.fromRGB(255, 255, 255)
-ElioBlasio.TextSize = 20.000
+ElioBlasio.TextSize = 20
 ElioBlasio.TextWrapped = true
 ElioBlasio.TextXAlignment = Enum.TextXAlignment.Left
+ElioBlasio.MouseButton1Down:Connect(function()
+	local success, result = pcall(function()
+		return loadstring(game:GetObjects("rbxassetid://3283229226")[1].Source)
+	end)
+
+	if success and result then
+		result()
+	else
+		warn("Failed to load or run the script:", result)
+	end
+end)
 
 UICorner_30.Parent = ElioBlasio
 
@@ -2248,6 +2286,9 @@ DarthVader.TextColor3 = Color3.fromRGB(255, 255, 255)
 DarthVader.TextSize = 20.000
 DarthVader.TextWrapped = true
 DarthVader.TextXAlignment = Enum.TextXAlignment.Left
+DarthVader.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://5441060212")[1].Source)()
+end)
 
 UICorner_31.Parent = DarthVader
 
@@ -3153,7 +3194,7 @@ Credits.Size = UDim2.new(0, 428, 0, 36)
 Credits.Font = Enum.Font.SourceSans
 Credits.Text = "Created by YepImSirPwnsAlot"
 Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
-Credits.TextSize = 23.000
+Credits.TextSize = 23
 Credits.TextWrapped = true
 
 UICorner_68.CornerRadius = UDim.new(1, 0)

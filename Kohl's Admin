@@ -187,21 +187,23 @@ Welcome2.BorderSizePixel = 0
 Welcome2.Position = UDim2.new(0.0245891828, 0, 0.114000015, 0)
 Welcome2.Size = UDim2.new(0, 428, 0, 36)
 Welcome2.Font = Enum.Font.SourceSans
-Welcome2.Text = "Welcome to the brand new UTG! Have fun."
+Welcome2.Text = ""
 Welcome2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Welcome2.TextSize = 15
 Welcome2.TextWrapped = true
 Welcome2.TextScaled = true
 
-local Welcome2 = script.Parent
+wait(1)
+Welcome2.Text = "Loading..."
 
-while true do
-    Welcome2.Text = "Loading MOTD..."
-	wait(1.5)
-	Welcome2.Text = "Whatever"
-	Wait(1.5)
-	Welcome2.Text = "Gonna add more stuff soon i guess."
-end
+wait(2.5)
+Welcome2.Text = "No MOTD found!"
+
+wait(3)
+Welcome2.Text = "Whatever"
+
+wait(4.5)
+Welcome2.Text = "Welcome to the new UTG! Have fun."
 
 UICorner_2.CornerRadius = UDim.new(1, 0)
 UICorner_2.Parent = Welcome2

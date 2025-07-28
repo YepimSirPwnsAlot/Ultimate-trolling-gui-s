@@ -164,7 +164,7 @@ Main.Size = UDim2.new(0, 451, 0, 525)
 Main.Visible = true
 
 UICorner.Parent = Main
-UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.CornerRadius = UDim.new(0, 18)
 
 Title.Name = "Title"
 Title.Parent = Main
@@ -179,7 +179,6 @@ Title.TextScaled = true
 Title.TextSize = 20
 Title.TextWrapped = true
 
-local Welcome2 = Instance.new("TextLabel")
 Welcome2.Name = "Welcome2"
 Welcome2.Parent = Main
 Welcome2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -187,24 +186,11 @@ Welcome2.BorderSizePixel = 0
 Welcome2.Position = UDim2.new(0.0245891828, 0, 0.114000015, 0)
 Welcome2.Size = UDim2.new(0, 428, 0, 36)
 Welcome2.Font = Enum.Font.SourceSans
-Welcome2.Text = ""
+Welcome2.Text = "Use keyboard keys for commands (X,Z,C,V,F,Q,E, etc)."
 Welcome2.TextColor3 = Color3.fromRGB(0, 0, 0)
-Welcome2.TextSize = 15
+Welcome2.TextSize = 14
 Welcome2.TextWrapped = true
 Welcome2.TextScaled = true
-
-wait(0.5)
-Welcome2.Text = "Loading..."
-
-wait(0.5)
-Welcome2.Text = "No MOTD found!"
-
-wait(0.4)
-wait(0.1)
-Welcome2.Text = "Finding a message..."
-
-wait(0.1)
-Welcome2.Text = "Welcome to the new UTG! Have fun."
 
 UICorner_2.CornerRadius = UDim.new(1, 0)
 UICorner_2.Parent = Welcome2
@@ -219,7 +205,7 @@ ScrollSizer.Size = UDim2.new(0, 428, 2, 333)
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = ScrollSizer
-UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.CornerRadius = UDim.new(0, 18)
 
 ScrollingFrame.Name = "E"
 ScrollingFrame.Parent = ScrollSizer
@@ -231,7 +217,7 @@ ScrollingFrame.ScrollBarThickness = 0
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = ScrollingFrame
-UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.CornerRadius = UDim.new(0, 18)
 
 Updated.Name = "Updated"
 Updated.Parent = ScrollingFrame
@@ -1053,7 +1039,7 @@ ChainSaw.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
 ChainSaw.Position = UDim2.new(0.0093457941, 0, 0.215290248, 0)
 ChainSaw.Size = UDim2.new(0, 419, 0, 36)
 ChainSaw.Font = Enum.Font.SourceSansBold
-ChainSaw.Text = "    Chain Saw"
+ChainSaw.Text = "    Insane Friggin Chainsaw (Warning: Very Ep1kal"
 ChainSaw.TextColor3 = Color3.fromRGB(255, 255, 255)
 ChainSaw.TextSize = 20.000
 ChainSaw.TextWrapped = true
@@ -1078,7 +1064,7 @@ local label1 = Instance.new("TextLabel")
 label1.Size = UDim2.new(1, -20, 0, 30)
 label1.Position = UDim2.new(0, 10, 0, 10)
 label1.BackgroundTransparency = 1
-label1.Text = "Press F to equip chain saw"
+label1.Text = "Press F to equip chainsaw"
 label1.TextColor3 = Color3.fromRGB(255, 255, 255)
 label1.TextStrokeTransparency = 0.3
 label1.TextScaled = true
@@ -1089,7 +1075,7 @@ local label2 = Instance.new("TextLabel")
 label2.Size = UDim2.new(1, -20, 0, 30)
 label2.Position = UDim2.new(0, 10, 0, 50)
 label2.BackgroundTransparency = 1
-label2.Text = "Press F to unequip chain saw"
+label2.Text = "Press F to unequip chainsaw"
 label2.TextColor3 = Color3.fromRGB(255, 255, 255)
 label2.TextStrokeTransparency = 0.3
 label2.TextScaled = true
@@ -2622,7 +2608,7 @@ end)
 
 UICorner_53.Parent = Baldi
 
-bbc.Name = "British Broadcasting channel"
+bbc.Name = "British Broadcasting Channel"
 bbc.Parent = ScrollingFrame
 bbc.BackgroundColor3 = Color3.fromRGB(162, 162, 162)
 bbc.Position = UDim2.new(0.00934579782, 0, 0.915861249, 0)
@@ -2801,119 +2787,6 @@ BaseballBat.TextColor3 = Color3.fromRGB(255, 255, 255)
 BaseballBat.TextSize = 20.000
 BaseballBat.TextWrapped = true
 BaseballBat.TextXAlignment = Enum.TextXAlignment.Left
-BaseballBat.MouseButton1Down:Connect(function()
---Paid Script By LilTywan--
-mouse = game.Players.LocalPlayer:GetMouse()
-using = false
-attack = false
-bat = Instance.new("Part", game.Players.LocalPlayer.Character)
-bat.Size = Vector3.new(1, 1, 5)
-bat.CanCollide = false
-bat:BreakJoints()
-baseballhit = Instance.new("Sound", bat)
-baseballhit.Volume = 10
-baseballhit.SoundId = "rbxassetid://175024455"
-swinging = Instance.new("Sound", bat)
-swinging.Volume = 10
-swinging.PlaybackSpeed = 1.2
-swinging.SoundId = "rbxassetid://147722227"
-weld = Instance.new("Weld", bat)
-weld.Part0 = game.Players.LocalPlayer.Character["Right Arm"]
-weld.Part1 = bat
-weld.C0 = weld.C0 * CFrame.Angles(0,3.15,0) * CFrame.new(0,-0.95,1.9)
-mesh = Instance.new("SpecialMesh", bat)
-mesh.MeshId = "http://www.roblox.com/asset/?id=54983181"
-mesh.TextureId = "http://www.roblox.com/asset/?id=54983107"
-mesh.Scale = Vector3.new(2,2,2)
-local rhandweld = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
-rhandweld.Part0 = game.Players.LocalPlayer.Character.Torso
-rhandweld.Part1 = game.Players.LocalPlayer.Character["Right Arm"]
-rhandweld.C0 = CFrame.new(1.5, 0.5, 0, 0, 0, 1, 0, 1, 0, -1, 0, 0)
-rhandweld.C1 = CFrame.new(0, 0.5, 0, 0, 0, 1, 0, 1, 0, -1, 0, 0)
-local lhandweld = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
-lhandweld.Part0 = game.Players.LocalPlayer.Character.Torso
-lhandweld.Part1 = game.Players.LocalPlayer.Character["Left Arm"]
-lhandweld.C0 = CFrame.new(-1.5, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-lhandweld.C1 = CFrame.new(0, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-for i = 1,20 do
-	wait()
-	game.Players.LocalPlayer.Character.Torso.Neck.C0 = game.Players.LocalPlayer.Character.Torso.Neck.C0 * CFrame.Angles(0,0,0.09)
-	lhandweld.C0 = lhandweld.C0 * CFrame.Angles(0,0,-0.12)
-	rhandweld.C0 = rhandweld.C0 * CFrame.Angles(0,0,0.13)
-	game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 = game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 * CFrame.Angles(0,0,-0.1)
-end
-for i = 1,20 do
-	wait()
-	lhandweld.C0 = lhandweld.C0 * CFrame.Angles(0.08,0,0) * CFrame.new(0,-0.1,0)
-end
-function swing(key)
-	key = key:lower()
-	if key == "e" then
-		if not using then
-			using = true
-			local detect = Instance.new("Part", bat)
-			detect.Size = Vector3.new(1,1,4.5)
-			detect:BreakJoints()
-			detect.CanCollide = false
-			detect.Transparency = 1
-		    local welding = Instance.new("Weld", detect)
-		    welding.Part0 = bat
-		    welding.Part1 = detect
-		    local function rip(part)
-			if not attack then
-			attack = true
-			local humanoid = part.Parent:findFirstChild("Humanoid")
-			root = part.Parent:findFirstChild("HumanoidRootPart")
-			local joint = root:findFirstChild("RootJoint")
-			local torso = part.Parent:findFirstChild("Torso")
-			local head = part.Parent:findFirstChild("Head")
-			if head ~= nil then
-			if torso ~= nil then
-			if humanoid ~= nil then
-				if root ~= nil then
-					if joint ~= nil then
-						baseballhit:Play()
-						head.Died.Volume = 20
-						head.Died:Play()
-						humanoid.WalkSpeed = 0
-						humanoid.JumpPower = 0
-						for i = 1,15 do
-			            wait(0.02)
-			            torso["Right Shoulder"].C1 = torso["Right Shoulder"].C1 * CFrame.Angles(0.06,0,0)
-						torso["Left Shoulder"].C1 = torso["Left Shoulder"].C1 * CFrame.Angles(0.03,0,0)
-		            	joint.C1 = joint.C1 * CFrame.Angles(-0.11,0,0)
-		            	joint.C1 = joint.C1 * CFrame.new(0,0.4,0)
-		            	torso["Left Hip"].C1 = torso["Left Hip"].C1 * CFrame.Angles(0.01,0,0)
-		            	torso["Right Hip"].C1 = torso["Right Hip"].C1 * CFrame.Angles(0.005,0,0)
-		                end --end of anim
-                        wait(1.2)
-                        attack = false
-                        torso.Anchored = true
-                   end --end of joint nil
-				end -- end of root nil
-			end -- end of humanoid nil
-			end -- end of torso nil
-			end -- end if head nil
-			end -- end of not attacked
-		    end -- end of function (rip)
-		    detect.Touched:connect(rip)
-            for i = 1,7 do
-	        wait()
-	        rhandweld.C0 = rhandweld.C0 * CFrame.Angles(0,0,-0.3)
-	        game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 = game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 * CFrame.Angles(0,0,0.5)
-            end
-            detect:destroy()
-            for i = 1,7 do
-	        wait()
-	        rhandweld.C0 = rhandweld.C0 * CFrame.Angles(0,0,0.3)
-	        game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 = game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 * CFrame.Angles(0,0,-0.5)
-            end
-			using = false
-		end --end of is not using then
-	end --end of if key
-end --end of swing function
-mouse.KeyDown:connect(swing)
-end)
 
 UICorner_66.Parent = BaseballBat
 
@@ -2950,12 +2823,12 @@ Credits.BorderSizePixel = 0
 Credits.Position = UDim2.new(0.0223718882, 0, 0.834973812, 0)
 Credits.Size = UDim2.new(0, 428, 0, 36)
 Credits.Font = Enum.Font.SourceSans
-Credits.Text = "Created by YepImSirPwnsAlot"
+Credits.Text = "Created by YepImSirPwnsAlot and Fartman42121cool"
 Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 Credits.TextSize = 23
 Credits.TextWrapped = true
 
-UICorner_68.CornerRadius = UDim.new(1, 0)
+UICorner_68.CornerRadius = UDim.new(0, 18)
 UICorner_68.Parent = Credits
 
 Respawn.Name = "Respawn"
@@ -2969,15 +2842,14 @@ Respawn.TextColor3 = Color3.fromRGB(0,128,0)
 Respawn.TextSize = 30
 Respawn.MouseButton1Down:Connect(function()
 	local Players = game:GetService("Players")
-
-	local player = game.Players.LocalPlayer
-
+	local player = Players.LocalPlayer
+	
 	if player and player.Character then
-		player.Character:BreakJoints()
+		player:LoadCharacter()
 	end
 end)
 
-UICorner_69.CornerRadius = UDim.new(1, 0)
+UICorner_69.CornerRadius = UDim.new(0, 18)
 UICorner_69.Parent = Respawn
 
 Netless.Name = "Netless"
@@ -2986,7 +2858,7 @@ Netless.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
 Netless.Position = UDim2.new(0.63, 0, 0.915730357, 0)
 Netless.Size = UDim2.new(0, 50, 0, 36)
 Netless.Font = Enum.Font.SourceSansBold
-Netless.Text = "R6"
+Netless.Text = ""
 Netless.TextColor3 = Color3.fromRGB(0,128,0)
 Netless.TextScaled = true
 Netless.TextSize = 14.000
@@ -3106,44 +2978,44 @@ AntiFling.FocusLost:Connect(function()
 	end
 end)
 
-local function MakeDraggable()
-	local UIS = game:GetService('UserInputService')
-	local frame = Main
-	local dragToggle = false
-	local dragSpeed = 0.25
-	local dragStart = nil
-	local startPos = nil
+local UIS = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
 
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(
-			startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y
-		)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-	
-	frame.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
-
-	UIS.InputChanged:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) and dragToggle then
-			updateInput(input)
-		end
-	end)
+local function update(input)
+	local delta = input.Position - dragStart
+	Main.Position = UDim2.new(
+		startPos.X.Scale, startPos.X.Offset + delta.X,
+		startPos.Y.Scale, startPos.Y.Offset + delta.Y
+	)
 end
 
-MakeDraggable()
+Title.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Main.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+Title.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+UIS.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
 
 Main:TweenPosition(UDim2.new(0.382, 0, 0.181, 0), "Out", "Quad", 0.5, true)

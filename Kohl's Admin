@@ -90,7 +90,7 @@ local Misc = Instance.new("TextButton")
 local UICorner_43 = Instance.new("UICorner")
 local Zeroith = Instance.new("TextButton")
 local UICorner_44 = Instance.new("UICorner")
-local OrangeJustice = Instance.new("TextButton")
+local FencingRestore = Instance.new("TextButton")
 local UICorner_45 = Instance.new("UICorner")
 local InsanityPowers = Instance.new("TextButton")
 local UICorner_46 = Instance.new("UICorner")
@@ -157,6 +157,8 @@ UltimateTrollingGuiV6.ResetOnSpawn = true
 
 Main.Name = "Main"
 Main.Parent = UltimateTrollingGuiV6
+Main.Active = true
+Main.Draggable = true
 Main.BackgroundColor3 = Color3.fromRGB(137, 0, 254)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.382268965, 0, 1.18099999, 0)
@@ -164,7 +166,7 @@ Main.Size = UDim2.new(0, 451, 0, 525)
 Main.Visible = true
 
 UICorner.Parent = Main
-UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.CornerRadius = UDim.new(0, 18)
 
 Title.Name = "Title"
 Title.Parent = Main
@@ -179,7 +181,6 @@ Title.TextScaled = true
 Title.TextSize = 20
 Title.TextWrapped = true
 
-local Welcome2 = Instance.new("TextLabel")
 Welcome2.Name = "Welcome2"
 Welcome2.Parent = Main
 Welcome2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -187,38 +188,26 @@ Welcome2.BorderSizePixel = 0
 Welcome2.Position = UDim2.new(0.0245891828, 0, 0.114000015, 0)
 Welcome2.Size = UDim2.new(0, 428, 0, 36)
 Welcome2.Font = Enum.Font.SourceSans
-Welcome2.Text = ""
+Welcome2.Text = "Gonna add more things soon, hang on there"
 Welcome2.TextColor3 = Color3.fromRGB(0, 0, 0)
-Welcome2.TextSize = 15
+Welcome2.TextSize = 14
 Welcome2.TextWrapped = true
 Welcome2.TextScaled = true
 
-wait(1)
-Welcome2.Text = "Loading..."
-
-wait(2.5)
-Welcome2.Text = "No MOTD found!"
-
-wait(3)
-Welcome2.Text = "Whatever"
-
-wait(4.5)
-Welcome2.Text = "Welcome to the new UTG! Have fun."
-
-UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.CornerRadius = UDim.new(0, 15)
 UICorner_2.Parent = Welcome2
 
 ScrollSizer.Name = "ScrollSizer"
 ScrollSizer.Parent = Main
 ScrollSizer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScrollSizer.BackgroundTransparency = 1.000
+ScrollSizer.BackgroundTransparency = 1
 ScrollSizer.BorderSizePixel = 0
 ScrollSizer.Position = UDim2.new(0.0245891828, 0, 0.196629211, 0)
 ScrollSizer.Size = UDim2.new(0, 428, 2, 333)
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = ScrollSizer
-UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.CornerRadius = UDim.new(0, 10)
 
 ScrollingFrame.Name = "E"
 ScrollingFrame.Parent = ScrollSizer
@@ -230,7 +219,7 @@ ScrollingFrame.ScrollBarThickness = 0
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = ScrollingFrame
-UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.CornerRadius = UDim.new(0, 10)
 
 Updated.Name = "Updated"
 Updated.Parent = ScrollingFrame
@@ -1052,7 +1041,7 @@ ChainSaw.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
 ChainSaw.Position = UDim2.new(0.0093457941, 0, 0.215290248, 0)
 ChainSaw.Size = UDim2.new(0, 419, 0, 36)
 ChainSaw.Font = Enum.Font.SourceSansBold
-ChainSaw.Text = "    Chain Saw"
+ChainSaw.Text = "    Insane Friggin Chainsaw"
 ChainSaw.TextColor3 = Color3.fromRGB(255, 255, 255)
 ChainSaw.TextSize = 20.000
 ChainSaw.TextWrapped = true
@@ -1077,7 +1066,7 @@ local label1 = Instance.new("TextLabel")
 label1.Size = UDim2.new(1, -20, 0, 30)
 label1.Position = UDim2.new(0, 10, 0, 10)
 label1.BackgroundTransparency = 1
-label1.Text = "Press F to equip chain saw"
+label1.Text = "Press F to equip chainsaw"
 label1.TextColor3 = Color3.fromRGB(255, 255, 255)
 label1.TextStrokeTransparency = 0.3
 label1.TextScaled = true
@@ -1088,7 +1077,7 @@ local label2 = Instance.new("TextLabel")
 label2.Size = UDim2.new(1, -20, 0, 30)
 label2.Position = UDim2.new(0, 10, 0, 50)
 label2.BackgroundTransparency = 1
-label2.Text = "Press F to unequip chain saw"
+label2.Text = "Press F to unequip chainsaw"
 label2.TextColor3 = Color3.fromRGB(255, 255, 255)
 label2.TextStrokeTransparency = 0.3
 label2.TextScaled = true
@@ -2375,19 +2364,72 @@ newTag.Font = Enum.Font.SourceSansBold
 newTag.TextSize = 20
 newTag.BorderSizePixel = 0
 
-OrangeJustice.Name = "OrangeJustice"
-OrangeJustice.Parent = ScrollingFrame
-OrangeJustice.BackgroundColor3 = Color3.fromRGB(162, 162, 162)
-OrangeJustice.Position = UDim2.new(0.00934579782, 0, 0.657831252, 0)
-OrangeJustice.Size = UDim2.new(0, 419, 0, 36)
-OrangeJustice.Font = Enum.Font.SourceSansBold
-OrangeJustice.Text = "    Orange Justice"
-OrangeJustice.TextColor3 = Color3.fromRGB(255, 255, 255)
-OrangeJustice.TextSize = 20.000
-OrangeJustice.TextWrapped = true
-OrangeJustice.TextXAlignment = Enum.TextXAlignment.Left
+FencingRestore.Name = "Fencing Restore"
+FencingRestore.Parent = ScrollingFrame
+FencingRestore.BackgroundColor3 = Color3.fromRGB(162, 162, 162)
+FencingRestore.Position = UDim2.new(0.00934579782, 0, 0.657831252, 0)
+FencingRestore.Size = UDim2.new(0, 419, 0, 36)
+FencingRestore.Font = Enum.Font.SourceSansBold
+FencingRestore.Text = "    Fencing Restore"
+FencingRestore.TextColor3 = Color3.fromRGB(255, 255, 255)
+FencingRestore.TextSize = 20.000
+FencingRestore.TextWrapped = true
+FencingRestore.TextXAlignment = Enum.TextXAlignment.Left
+FencingRestore.MouseButton1Down:Connect(function()
+function X(ws)
+for _, v in pairs(ws:GetChildren()) do
+v.Archivable = true
+if v.Name ~= "UClear" and v.Name ~= "Terrain" and game.Players:GetPlayerFromCharacter(v)==nil and v~=game.Workspace.CurrentCamera then
+if v:IsA("Script") or v:IsA("LocalScript") then
+v.Disabled = true
+v:remove()
+else
+v:remove()
+end
+end
+if game.Workspace:findFirstChild("Base") ~= nil then
+else
+local Base=Instance.new("Part",game.Workspace) 
+Base.Name="Base" 
+Base.Size=Vector3.new(1000,1,1000) 
+Base.BrickColor=BrickColor.new("Earth green") 
+Base.Anchored=true 
+Base.Locked=true 
+Base.TopSurface="Universal" 
+Base.CFrame=CFrame.new(Vector3.new(0,0,0)) 
+local Spawn=Instance.new("SpawnLocation",game.Workspace)
+Spawn.Name="lol"
+Spawn.Size=Vector3.new(6,1,6)
+Spawn.Transparency=1
+Spawn.CanCollide=false
+Spawn.Anchored=true
+Spawn.Locked=true
+Spawn.CFrame=CFrame.new(Vector3.new(0,1,0))
+end
+end
+end
+X(game.Workspace)
+X(game.Teams)
+X(game.StarterGui)
+wait()
+game.Workspace:InsertContent("rbxassetid://118791953")
+wait()
+game.workspace.Base:Destroy()
+wait()
+game.workspace.lol:Destroy()
+wait()
+game.Lighting.Ambient = Color3.new(255,255,255)
+game.Lighting.TimeOfDay = 12
+game.Lighting.Brightness = 0.5
+game.Lighting.FogEnd = 100000
+game.Lighting.GlobalShadows = false
+game.Lighting.Sky:Destroy()
+game.Lighting.FogEnd = 100000
+game.Lighting.Brightness = 1
+game.Workspace.Terrain:clear()
+end)
 
-UICorner_45.Parent = OrangeJustice
+UICorner_45.Parent = FencingRestore
 
 InsanityPowers.Name = "InsanityPowers"
 InsanityPowers.Parent = ScrollingFrame
@@ -2621,7 +2663,7 @@ end)
 
 UICorner_53.Parent = Baldi
 
-bbc.Name = "British Broadcasting channel"
+bbc.Name = "British Broadcasting Channel"
 bbc.Parent = ScrollingFrame
 bbc.BackgroundColor3 = Color3.fromRGB(162, 162, 162)
 bbc.Position = UDim2.new(0.00934579782, 0, 0.915861249, 0)
@@ -2949,12 +2991,12 @@ Credits.BorderSizePixel = 0
 Credits.Position = UDim2.new(0.0223718882, 0, 0.834973812, 0)
 Credits.Size = UDim2.new(0, 428, 0, 36)
 Credits.Font = Enum.Font.SourceSans
-Credits.Text = "Created by YepImSirPwnsAlot"
+Credits.Text = "Created by YepImSirPwnsAlot and Fartman42121cool"
 Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 Credits.TextSize = 23
 Credits.TextWrapped = true
 
-UICorner_68.CornerRadius = UDim.new(1, 0)
+UICorner_68.CornerRadius = UDim.new(0, 15)
 UICorner_68.Parent = Credits
 
 Respawn.Name = "Respawn"
@@ -2964,19 +3006,26 @@ Respawn.Position = UDim2.new(0.72, 0, 0.915730357, 0)
 Respawn.Size = UDim2.new(0, 115, 0, 35)
 Respawn.Font = Enum.Font.SourceSansBold
 Respawn.Text = "Respawn"
-Respawn.TextColor3 = Color3.fromRGB(0,128,0)
+Respawn.TextColor3 = Color3.fromRGB(0, 128, 0)
 Respawn.TextSize = 30
-Respawn.MouseButton1Down:Connect(function()
-	local Players = game:GetService("Players")
-
-	local player = game.Players.LocalPlayer
-
-	if player and player.Character then
-		player.Character:BreakJoints()
-	end
+Respawn.MouseButton1Click:Connect(function()
+	respawn()
 end)
 
-UICorner_69.CornerRadius = UDim.new(1, 0)
+function respawn()
+	local char = game.Players.LocalPlayer.Character
+	if char:FindFirstChildOfClass("Humanoid") then char:FindFirstChildOfClass("Humanoid"):ChangeState(2) end
+	char:ClearAllChildren()
+	local newChar = Instance.new("Model")
+	newChar.Parent = workspace
+	game.Players.LocalPlayer.Character = newChar
+	wait()
+	game.Players.LocalPlayer.Character = char
+	newChar:Destroy()
+end
+
+
+UICorner_69.CornerRadius = UDim.new(0, 15)
 UICorner_69.Parent = Respawn
 
 Netless.Name = "Netless"
@@ -2985,7 +3034,7 @@ Netless.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
 Netless.Position = UDim2.new(0.63, 0, 0.915730357, 0)
 Netless.Size = UDim2.new(0, 50, 0, 36)
 Netless.Font = Enum.Font.SourceSansBold
-Netless.Text = "R6"
+Netless.Text = ""
 Netless.TextColor3 = Color3.fromRGB(0,128,0)
 Netless.TextScaled = true
 Netless.TextSize = 14.000
@@ -3001,11 +3050,11 @@ AntiFling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AntiFling.Position = UDim2.new(0.0245891828, 0, 0.915730357, 0)
 AntiFling.Size = UDim2.new(0, 305, 0, 35)
 AntiFling.Font = Enum.Font.SourceSans
-AntiFling.Text = game.Players.LocalPlayer.Name
+AntiFling.Text = "Player"
 AntiFling.TextColor3 = Color3.fromRGB(0, 0, 0)
 AntiFling.TextSize = 25
 
-UICorner_71.CornerRadius = UDim.new(1, 0)
+UICorner_71.CornerRadius = UDim.new(0, 15)
 UICorner_71.Parent = AntiFling
 
 X.Name = "X"
@@ -3059,6 +3108,8 @@ subtext.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
 subtext.TextStrokeTransparency = 0
 subtext.TextScaled = true
 
+-- Script Section:
+
 task.spawn(function()
 	local colors = {
 		Color3.fromRGB(255, 0, 0),
@@ -3096,53 +3147,66 @@ AntiFling.FocusLost:Connect(function()
 		AntiFling:Destroy()
 		return
 	end
-
-	for _, player in pairs(game.Players:GetPlayers()) do
-		if string.find(player.Name:lower(), AntiFling.Text:lower()) then
-			AntiFling.Text = player.Name
+	
+	for i, v in pairs(game.Players:GetPlayers()) do
+		if string.find(v.Name:lower(), AntiFling.Text:lower()) then
+			AntiFling.Text = v.Name
 			break
 		end
 	end
 end)
 
-local function MakeDraggable()
-	local UIS = game:GetService('UserInputService')
-	local frame = Main
-	local dragToggle = false
-	local dragSpeed = 0.25
-	local dragStart = nil
-	local startPos = nil
+local plr = game.Players.LocalPlayer
 
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(
-			startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y
-		)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-	
-	frame.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
+plr.Chatted:Connect(function(chat)
+    if (chat == "/open utg") then
+        if Main.Visible == true then
+            Main.Visible = false
+        else
+            wait(4.5)
+            Main.Visible = true
+        end
+    end
+end)
 
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
+local UIS = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
 
-	UIS.InputChanged:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) and dragToggle then
-			updateInput(input)
-		end
-	end)
+local function update(input)
+	local delta = input.Position - dragStart
+	Main.Position = UDim2.new(
+		startPos.X.Scale, startPos.X.Offset + delta.X,
+		startPos.Y.Scale, startPos.Y.Offset + delta.Y
+	)
 end
 
-MakeDraggable()
+Title.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Main.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+Title.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+UIS.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
 
 Main:TweenPosition(UDim2.new(0.382, 0, 0.181, 0), "Out", "Quad", 0.5, true)

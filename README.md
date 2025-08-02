@@ -1,1 +1,2990 @@
-# Ultimate-trolling-gui-s
+local UltimateTrollingGuiV6 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Welcome2 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local ScrollSizer = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Banzai = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Cleetus = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local JohnDoe = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TheDankEngine = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Splatterhouse = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Illuminati = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local MineCraftSteve = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ChopChop = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local HolyWrench = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Solario = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local FlamingCube = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Techno = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local M60 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Neptunion = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local ChainSaw = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Spider = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local InfGaunt = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local DemonClaws = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Fraud = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Nuke = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Stand = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local KJ = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local clownvan = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Felipe = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local AmongUs = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local ServerAdmin = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Sniper = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local ElioBlasio = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local DarthVader = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local BanHammer = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Caducus = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local AK47 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Car = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Chillingo = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local MLG = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Demon = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local FZ = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local Memeus = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local Chrono = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Disasters = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local GUI = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local Zeroith = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local ChatHax = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local InsanityPowers = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local ModelInserter = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local Rokudayne = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local AnimationGUI = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local Pillow = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local Kara = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local BlackHole = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local Baldi = Instance.new("TextButton")
+local UICorner_53 = Instance.new("UICorner")
+local bbc = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local TouchKill = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local TakeTheL = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local Grabknife = Instance.new("TextButton")
+local UICorner_57 = Instance.new("UICorner")
+local Rtx = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local RainbowKing = Instance.new("TextButton")
+local UICorner_59 = Instance.new("UICorner")
+local Gun = Instance.new("TextButton")
+local UICorner_60 = Instance.new("UICorner")
+local PixelCar = Instance.new("TextButton")
+local UICorner_61 = Instance.new("UICorner")
+local HellRobotics = Instance.new("TextButton")
+local UICorner_62 = Instance.new("UICorner")
+local Titain = Instance.new("TextButton")
+local UICorner_63 = Instance.new("UICorner")
+local Neko = Instance.new("TextButton")
+local UICorner_64 = Instance.new("UICorner")
+local Zen = Instance.new("TextButton")
+local UICorner_65 = Instance.new("UICorner")
+local BaseballBat = Instance.new("TextButton")
+local UICorner_66 = Instance.new("UICorner")
+local Eggdog = Instance.new("TextButton")
+local UICorner_67 = Instance.new("UICorner")
+local Credits = Instance.new("TextLabel")
+local UICorner_68 = Instance.new("UICorner")
+local Respawn = Instance.new("TextButton")
+local UICorner_69 = Instance.new("UICorner")
+local AntiFling = Instance.new("TextBox")
+local UICorner_71 = Instance.new("UICorner")
+local X = Instance.new("TextButton")
+local UICorner_72 = Instance.new("UICorner")
+local OpenUtg = Instance.new("TextButton")
+
+--Properties:
+
+UltimateTrollingGuiV6.Name = "UltimateTrollingGuiV6"
+UltimateTrollingGuiV6.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UltimateTrollingGuiV6.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+UltimateTrollingGuiV6.ResetOnSpawn = true
+
+Main.Name = "Main"
+Main.Parent = UltimateTrollingGuiV6
+Main.Active = true
+Main.Draggable = true
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.382268965, 0, 1.18099999, 0)
+Main.Size = UDim2.new(0, 451, 0, 525)
+Main.Visible = true
+
+local UIGradient = Instance.new("UIGradient")
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))}
+UIGradient.Parent = Main
+
+UICorner.Parent = Main
+UICorner.CornerRadius = UDim.new(0, 18)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0600659028, 0, 0.01, 0)
+Title.Size = UDim2.new(0, 395, 0, 51)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "ULTIMATE TROLLING GUI"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 15
+Title.TextWrapped = true
+
+Welcome2.Name = "Welcome2"
+Welcome2.Parent = Main
+Welcome2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome2.BorderSizePixel = 0
+Welcome2.Position = UDim2.new(0.0245891828, 0, 0.114000015, 0)
+Welcome2.Size = UDim2.new(0, 428, 0, 36)
+Welcome2.Font = Enum.Font.SourceSans
+Welcome2.Text = "Added to much new things! Enjoy guys :)"
+Welcome2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Welcome2.TextSize = 10
+Welcome2.TextWrapped = true
+Welcome2.TextScaled = true
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = Welcome2
+
+ScrollSizer.Name = "ScrollSizer"
+ScrollSizer.Parent = Main
+ScrollSizer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollSizer.BackgroundTransparency = 1
+ScrollSizer.BorderSizePixel = 0
+ScrollSizer.Position = UDim2.new(0.0245891828, 0, 0.196629211, 0)
+ScrollSizer.Size = UDim2.new(0, 428, 2, 333)
+
+local UICorner = Instance.new("UICorner")
+UICorner.Parent = ScrollSizer
+UICorner.CornerRadius = UDim.new(0, 14)
+
+ScrollingFrame.Name = "E"
+ScrollingFrame.Parent = ScrollSizer
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 427, 0, 333)
+ScrollingFrame.ScrollBarThickness = 0
+
+local UIPadding = Instance.new("UIPadding")
+UIPadding.Parent = ScrollingFrame
+UIPadding.PaddingTop = UDim.new(0, 10)
+UIPadding.PaddingBottom = UDim.new(0, 10)
+UIPadding.PaddingLeft = UDim.new(0, 5)
+UIPadding.PaddingRight = UDim.new(0, 5)
+
+local UIListLayout = Instance.new("UIListLayout")
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+local UICorner = Instance.new("UICorner")
+UICorner.Parent = ScrollingFrame
+UICorner.CornerRadius = UDim.new(0, 14)
+
+Banzai.Name = "Banzai"
+Banzai.Parent = ScrollingFrame
+Banzai.BackgroundColor3 = Color3.fromRGB(87, 185, 255)
+Banzai.Position = UDim2.new(0.0093457941, 0, 0.0022281385, 0)
+Banzai.Size = UDim2.new(0, 419, 0, 36)
+Banzai.Font = Enum.Font.SourceSansBold
+Banzai.Text = "    Banzai Bazooka"
+Banzai.TextColor3 = Color3.fromRGB(255, 255, 255)
+Banzai.TextSize = 20.000
+Banzai.TextWrapped = true
+Banzai.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_3.Parent = Banzai
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = Banzai
+newTag.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 60, 0, 30)
+newTag.Text = "UPDATED"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 18
+newTag.BorderSizePixel = 0
+
+Cleetus.Name = "Cleetus"
+Cleetus.Parent = ScrollingFrame
+Cleetus.BackgroundColor3 = Color3.fromRGB(87, 185, 255)
+Cleetus.Position = UDim2.new(0.0093457941, 0, 0.0175743196, 0)
+Cleetus.Size = UDim2.new(0, 419, 0, 36)
+Cleetus.Font = Enum.Font.SourceSansBold
+Cleetus.Text = "    Cleetus (Warning: Still A Bit Broken)"
+Cleetus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cleetus.TextSize = 20.000
+Cleetus.TextWrapped = true
+Cleetus.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_4.Parent = Cleetus
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = Cleetus
+newTag.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 60, 0, 30)
+newTag.Text = "UPDATED"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 18
+newTag.BorderSizePixel = 0
+
+JohnDoe.Name = "JohnDoe"
+JohnDoe.Parent = ScrollingFrame
+JohnDoe.BackgroundColor3 = Color3.fromRGB(235, 190, 77)
+JohnDoe.Position = UDim2.new(0.0093457941, 0, 0.0329205021, 0)
+JohnDoe.Size = UDim2.new(0, 419, 0, 36)
+JohnDoe.Font = Enum.Font.SourceSansBold
+JohnDoe.Text = "    John Doe"
+JohnDoe.TextColor3 = Color3.fromRGB(255, 255, 255)
+JohnDoe.TextSize = 20.000
+JohnDoe.TextWrapped = true
+JohnDoe.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_5.Parent = JohnDoe
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = JohnDoe
+newTag.BackgroundColor3 = Color3.fromRGB(186, 142, 35)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "FIXED"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 20
+newTag.BorderSizePixel = 0
+
+TheDankEngine.Name = "TheDankEngine"
+TheDankEngine.Parent = ScrollingFrame
+TheDankEngine.BackgroundColor3 = Color3.fromRGB(235, 190, 77)
+TheDankEngine.Position = UDim2.new(0.0093457941, 0, 0.0482666828, 0)
+TheDankEngine.Size = UDim2.new(0, 419, 0, 36)
+TheDankEngine.Font = Enum.Font.SourceSansBold
+TheDankEngine.Text = "    Thomas The Dank Engine"
+TheDankEngine.TextColor3 = Color3.fromRGB(255, 255, 255)
+TheDankEngine.TextSize = 20.000
+TheDankEngine.TextWrapped = true
+TheDankEngine.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_6.Parent = TheDankEngine
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = TheDankEngine
+newTag.BackgroundColor3 = Color3.fromRGB(186, 142, 35)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "FIXED"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 20
+newTag.BorderSizePixel = 0
+
+Splatterhouse.Name = "Splatterhouse"
+Splatterhouse.Parent = ScrollingFrame
+Splatterhouse.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Splatterhouse.Position = UDim2.new(0.0093457941, 0, 0.0625422001, 0)
+Splatterhouse.Size = UDim2.new(0, 419, 0, 36)
+Splatterhouse.Font = Enum.Font.SourceSansBold
+Splatterhouse.Text = "    Rick's Retribution"
+Splatterhouse.TextColor3 = Color3.fromRGB(255, 255, 255)
+Splatterhouse.TextSize = 20.000
+Splatterhouse.TextWrapped = true
+Splatterhouse.TextXAlignment = Enum.TextXAlignment.Left
+Splatterhouse.MouseButton1Down:Connect(function()
+--//====================================================\\--
+--||                 SPLATTERHOUSE CREDITS              ||--
+--\\====================================================//--
+
+-- Created By: YepImSirPwnsAlot
+-- Script Name: Splatter house 2
+
+--//====================================================\\--
+--||                     PAINFUl LUAU                   ||--
+--\\====================================================//--
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local LAMO = Instance.new("ScreenGui")
+LAMO.Name = "LAMO_TypingEffect"
+LAMO.IgnoreGuiInset = true
+LAMO.DisplayOrder = 1000
+LAMO.ResetOnSpawn = false
+LAMO.Parent = LocalPlayer:WaitForChild("PlayerGui")
+
+local Frame = Instance.new("Frame")
+Frame.Name = "BlackoutFrame"
+Frame.Parent = LAMO
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0, 0)
+Frame.Size = UDim2.new(1, 0, 1, 0)
+
+local music = Instance.new("Sound")
+music.Parent = game.Workspace
+music.SoundId = "rbxassetid://137820949448461"
+music.Volume = 2
+music.PlaybackSpeed = 1
+music.Looped = false
+music:Play()
+
+local TextLabel = Instance.new("TextLabel")
+TextLabel.Parent = Frame
+TextLabel.Size = UDim2.new(0.6, 0, 0.5, 0)
+TextLabel.Position = UDim2.new(0.5, 0, 0.55, 0)
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundTransparency = 1
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Font = Enum.Font.Arcade
+TextLabel.TextSize = 20
+TextLabel.TextXAlignment = Enum.TextXAlignment.Center
+TextLabel.TextYAlignment = Enum.TextYAlignment.Center
+TextLabel.TextWrapped = true
+TextLabel.Text = ""
+
+local NumberImage = Instance.new("ImageLabel")
+NumberImage.Name = "NumberImage"
+NumberImage.Parent = Frame
+NumberImage.Size = UDim2.new(0, 250, 0, 210)
+NumberImage.Position = UDim2.new(0.5, 0, 0.35, 0)
+NumberImage.AnchorPoint = Vector2.new(0.5, 0.5)
+NumberImage.BackgroundTransparency = 1
+NumberImage.Image = "rbxassetid://134169990445330"
+NumberImage.ScaleType = Enum.ScaleType.Fit
+
+local message = [[
+You've always been a killer...In another life, in another game!
+You've always known it about that urge, you just tried to bury it.
+You've been wearing a mask your whole life...
+It's time to embrace it.
+this is who you really are.
+]]
+
+local delayBetweenChars = 0.06
+local running = true
+local swap = true
+
+task.spawn(function()
+	while running do
+		NumberImage.Image = swap and "rbxassetid://134169990445330" or "rbxassetid://95323780549355"
+		swap = not swap
+		wait(0.5)
+	end
+end)
+
+for i = 1, #message do
+	local currentText = string.sub(message, 1, i)
+	TextLabel.Text = currentText
+
+	if currentText:find("this is who you really are") then
+		TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+	else
+		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end
+
+	wait(delayBetweenChars)
+end
+
+running = false
+
+wait(1)
+NumberImage:Destroy()
+Frame:Destroy()
+
+local music2 = Instance.new("Sound")
+music2.Parent = game.Workspace
+music2.SoundId = "rbxassetid://123404399362375"
+music2.Volume = 5
+music2.PlaybackSpeed = 1
+music2.Looped = true
+music2:Play()
+
+local InsertService = game:GetService("InsertService")
+local player = LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+if character:FindFirstChild("Torso") and character:FindFirstChild("Left Arm") then
+    for _, v in pairs(character:GetChildren()) do
+        if v:IsA("Accessory") or v:IsA("CharacterMesh") or v:IsA("BodyColors") or v:IsA("Shirt") or v:IsA("ShirtGraphic") or v:IsA("Pants") then
+            v:Destroy()
+        end
+    end
+
+    coroutine.wrap(function()
+        if character.Head:FindFirstChild("face") ~= nil then
+            character.Head.face.Texture = "rbxassetid://126711685447776"
+        else
+            local newface = Instance.new("Decal", character.Head)
+            newface.Face = Enum.NormalId.Front
+            newface.Texture = "rbxassetid://126711685447776"
+            newface.Name = "face"
+        end
+    end)()
+
+    local tanColor = Color3.fromRGB(255, 204, 102)
+    local darkGreenColor = Color3.fromRGB(0, 100, 0)
+
+    for _, part in ipairs(character:GetChildren()) do
+        if part:IsA("Part") then
+            if part.Name == "Left Arm" or part.Name == "Right Arm" then
+                part.Color = tanColor
+            elseif part.Name == "Torso" or part.Name == "Left Leg" or part.Name == "Right Leg" then
+                part.Color = darkGreenColor
+            end
+        end
+    end
+
+local Players = game:GetService("Players")
+local InsertService = game:GetService("InsertService")
+local accessoryId = 126675904204042 -- Hockey Heister Mask asset ID
+
+local function onCharacterAdded(character)
+	local success, model = pcall(function()
+		return InsertService:LoadAsset(accessoryId)
+	end)
+
+	if not success or not model then
+		warn("Failed to load Hockey Heister Mask.")
+		return
+	end
+
+	local accessory = model:FindFirstChildWhichIsA("Accessory")
+	if not accessory then
+		warn("Accessory not found in model.")
+		return
+	end
+
+	accessory.Parent = character
+
+	local handle = accessory:FindFirstChild("Handle")
+	if handle then
+		local maskAttachment = handle:FindFirstChildWhichIsA("Attachment")
+		local head = character:WaitForChild("Head", 5)
+		if head then
+			local headAttachment = head:FindFirstChild(maskAttachment.Name)
+			if headAttachment then
+				handle.CFrame = headAttachment.CFrame * maskAttachment.CFrame:Inverse()
+			end
+		end
+	end
+end
+
+local player = Players.LocalPlayer
+if player.Character then
+	onCharacterAdded(player.Character)
+end
+player.CharacterAdded:Connect(onCharacterAdded)
+
+    local shirt = Instance.new("Shirt")
+    shirt.ShirtTemplate = "rbxassetid://16736147782"
+    shirt.Parent = character
+
+    local pants = Instance.new("Pants")
+    pants.PantsTemplate = "rbxassetid://8352055668"
+    pants.Parent = character
+else
+    warn("This script is only for R6 avatars.")
+end
+
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "RicksRetributionGUI"
+screenGui.Parent = player:WaitForChild("PlayerGui")
+
+local frame = Instance.new("Frame")
+frame.Name = "RootFrame"
+frame.Parent = screenGui
+frame.BackgroundTransparency = 1
+frame.Size = UDim2.new(1, 0, 1, 0)
+
+local controlFrame = Instance.new("Frame")
+controlFrame.Name = "ControlFrame"
+controlFrame.Parent = frame
+controlFrame.Size = UDim2.new(0, 315, 0, 500)
+controlFrame.Position = UDim2.new(0, 700, 0, 49)
+controlFrame.BackgroundTransparency = 0.2
+controlFrame.BackgroundColor3 = Color3.fromRGB(6, 64, 43)
+controlFrame.BorderSizePixel = 0
+
+local function createLabel(parent, text, yOffset)
+	local label = Instance.new("TextLabel")
+	label.Name = "Label_" .. text:gsub(" ", "_")
+	label.Parent = parent
+	label.BackgroundTransparency = 1
+	label.Text = text
+	label.TextScaled = true
+	label.Font = Enum.Font.SourceSansBold
+	label.TextColor3 = Color3.new(1, 1, 1)
+	label.Size = UDim2.new(0.9, 0, 0, 40)
+	label.Position = UDim2.new(0.05, 0, 0, yOffset)
+	label.TextStrokeTransparency = 0
+	label.TextTransparency = 0
+	label.TextXAlignment = Enum.TextXAlignment.Center
+	return label
+end
+
+createLabel(controlFrame, "Rick's Retribution", 5)
+createLabel(controlFrame, "Created By: YepImSirPwnsAlot", 45)
+createLabel(controlFrame, "Click - Punch", 85)
+createLabel(controlFrame, "C - Crouch", 125)
+createLabel(controlFrame, "K - Kick", 165)
+createLabel(controlFrame, "J - Jump Kick", 205)
+createLabel(controlFrame, "U - Uppercut", 245)
+createLabel(controlFrame, "G - Grab and Throw", 285)
+createLabel(controlFrame, "R - Slide Kick", 325)
+createLabel(controlFrame, "F - Get Shotgun", 365)
+
+local OpenClose = Instance.new("TextButton")
+OpenClose.Name = "OpenClose"
+OpenClose.Parent = screenGui
+OpenClose.Size = UDim2.new(0, 104, 0, 50)
+OpenClose.Position = UDim2.new(0, 850, 0, 478)
+OpenClose.BackgroundTransparency = 0.2
+OpenClose.Text = "Close"
+OpenClose.TextSize = 20
+OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose.BackgroundColor3 = Color3.fromRGB(6, 64, 43)
+OpenClose.Font = Enum.Font.SourceSansBold
+OpenClose.TextStrokeTransparency = 0
+OpenClose.BackgroundTransparency = 0.2
+OpenClose.BorderSizePixel = 0
+OpenClose.TextTransparency = 0
+OpenClose.MouseButton1Click:Connect(function()
+	if OpenClose.Text == "Close" then
+		frame.Visible = false	
+		OpenClose.Text = "Open"
+	else
+		frame.Visible = true
+		OpenClose.Text = "Close"
+	end
+end)
+end)
+
+UICorner_7.Parent = Splatterhouse
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = Splatterhouse
+newTag.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "NEW"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 20
+newTag.BorderSizePixel = 0
+
+Illuminati.Name = "Illuminati"
+Illuminati.Parent = ScrollingFrame
+Illuminati.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Illuminati.Position = UDim2.new(0.0093457941, 0, 0.0932345614, 0)
+Illuminati.Size = UDim2.new(0, 419, 0, 36)
+Illuminati.Font = Enum.Font.SourceSansBold
+Illuminati.Text = "    Illuminati"
+Illuminati.TextColor3 = Color3.fromRGB(255, 255, 255)
+Illuminati.TextSize = 20.000
+Illuminati.TextWrapped = true
+Illuminati.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_8.Parent = Illuminati
+
+MineCraftSteve.Name = "MineCraftSteve"
+MineCraftSteve.Parent = ScrollingFrame
+MineCraftSteve.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+MineCraftSteve.Position = UDim2.new(0.0093457941, 0, 0.108580746, 0)
+MineCraftSteve.Size = UDim2.new(0, 419, 0, 36)
+MineCraftSteve.Font = Enum.Font.SourceSansBold
+MineCraftSteve.Text = "    I...Am Steeeeeve"
+MineCraftSteve.TextColor3 = Color3.fromRGB(255, 255, 255)
+MineCraftSteve.TextSize = 20.000
+MineCraftSteve.TextWrapped = true
+MineCraftSteve.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_9.Parent = MineCraftSteve
+
+ChopChop.Name = "ChopChop"
+ChopChop.Parent = ScrollingFrame
+ChopChop.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+ChopChop.Position = UDim2.new(0.0093457941, 0, 0.077888377, 0)
+ChopChop.Size = UDim2.new(0, 419, 0, 36)
+ChopChop.Font = Enum.Font.SourceSansBold
+ChopChop.Text = "    Chop Chop"
+ChopChop.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChopChop.TextSize = 20.000
+ChopChop.TextWrapped = true
+ChopChop.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_10.Parent = ChopChop
+
+HolyWrench.Name = "HolyWrench"
+HolyWrench.Parent = ScrollingFrame
+HolyWrench.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+HolyWrench.Position = UDim2.new(0.0093457941, 0, 0.139630005, 0)
+HolyWrench.Size = UDim2.new(0, 419, 0, 36)
+HolyWrench.Font = Enum.Font.SourceSansBold
+HolyWrench.Text = "    Holy Wrench"
+HolyWrench.TextColor3 = Color3.fromRGB(255, 255, 255)
+HolyWrench.TextSize = 20.000
+HolyWrench.TextWrapped = true
+HolyWrench.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_11.Parent = HolyWrench
+
+Solario.Name = "Solario"
+Solario.Parent = ScrollingFrame
+Solario.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Solario.Position = UDim2.new(0.0093457941, 0, 0.154976189, 0)
+Solario.Size = UDim2.new(0, 419, 0, 36)
+Solario.Font = Enum.Font.SourceSansBold
+Solario.Text = "    Solaris"
+Solario.TextColor3 = Color3.fromRGB(255, 255, 255)
+Solario.TextSize = 20.000
+Solario.TextWrapped = true
+Solario.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_12.Parent = Solario
+
+FlamingCube.Name = "FlamingCube"
+FlamingCube.Parent = ScrollingFrame
+FlamingCube.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+FlamingCube.Position = UDim2.new(0.0093457941, 0, 0.170322359, 0)
+FlamingCube.Size = UDim2.new(0, 419, 0, 36)
+FlamingCube.Font = Enum.Font.SourceSansBold
+FlamingCube.Text = "    Flaming Cube"
+FlamingCube.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlamingCube.TextSize = 20.000
+FlamingCube.TextWrapped = true
+FlamingCube.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_13.Parent = FlamingCube
+
+Techno.Name = "Techno"
+Techno.Parent = ScrollingFrame
+Techno.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Techno.Position = UDim2.new(0.0093457941, 0, 0.199944049, 0)
+Techno.Size = UDim2.new(0, 419, 0, 36)
+Techno.Font = Enum.Font.SourceSansBold
+Techno.Text = "	Techno Gauntlet"
+Techno.TextColor3 = Color3.fromRGB(255, 255, 255)
+Techno.TextSize = 20.000
+Techno.TextWrapped = true
+Techno.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_14.Parent = Techno
+
+M60.Name = "M60"
+M60.Parent = ScrollingFrame
+M60.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+M60.Position = UDim2.new(0.0093457941, 0, 0.230636418, 0)
+M60.Size = UDim2.new(0, 419, 0, 36)
+M60.Font = Enum.Font.SourceSansBold
+M60.Text = "    M60"
+M60.TextColor3 = Color3.fromRGB(255, 255, 255)
+M60.TextSize = 20.000
+M60.TextWrapped = true
+M60.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_15.Parent = M60
+
+Neptunion.Name = "Neptunion"
+Neptunion.Parent = ScrollingFrame
+Neptunion.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Neptunion.Position = UDim2.new(0.0093457941, 0, 0.18459788, 0)
+Neptunion.Size = UDim2.new(0, 419, 0, 36)
+Neptunion.Font = Enum.Font.SourceSansBold
+Neptunion.Text = "    Neptunion V"
+Neptunion.TextColor3 = Color3.fromRGB(255, 255, 255)
+Neptunion.TextSize = 20.000
+Neptunion.TextWrapped = true
+Neptunion.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_16.Parent = Neptunion
+
+ChainSaw.Name = "ChainSaw"
+ChainSaw.Parent = ScrollingFrame
+ChainSaw.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+ChainSaw.Position = UDim2.new(0.0093457941, 0, 0.215290248, 0)
+ChainSaw.Size = UDim2.new(0, 419, 0, 36)
+ChainSaw.Font = Enum.Font.SourceSansBold
+ChainSaw.Text = "    Insane Friggin Chainsaw"
+ChainSaw.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChainSaw.TextSize = 20.000
+ChainSaw.TextWrapped = true
+ChainSaw.TextXAlignment = Enum.TextXAlignment.Left
+ChainSaw.MouseButton1Down:Connect(function()
+--- // Chainsaw // ---
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "ChainSawGUI"
+gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+local mainFrame = Instance.new("Frame")
+mainFrame.Name = "MainFrame"
+mainFrame.Size = UDim2.new(0, 350, 0, 160)
+mainFrame.Position = UDim2.new(1, -370, 0.4, 0)
+mainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+mainFrame.BackgroundTransparency = 0.5
+mainFrame.BorderSizePixel = 0
+mainFrame.Parent = gui
+
+local label1 = Instance.new("TextLabel")
+label1.Size = UDim2.new(1, -20, 0, 30)
+label1.Position = UDim2.new(0, 10, 0, 10)
+label1.BackgroundTransparency = 1
+label1.Text = "Press F to equip chainsaw"
+label1.TextColor3 = Color3.fromRGB(255, 255, 255)
+label1.TextStrokeTransparency = 0.3
+label1.TextScaled = true
+label1.Font = Enum.Font.SourceSansBold
+label1.Parent = mainFrame
+
+local label2 = Instance.new("TextLabel")
+label2.Size = UDim2.new(1, -20, 0, 30)
+label2.Position = UDim2.new(0, 10, 0, 50)
+label2.BackgroundTransparency = 1
+label2.Text = "Press F to unequip chainsaw"
+label2.TextColor3 = Color3.fromRGB(255, 255, 255)
+label2.TextStrokeTransparency = 0.3
+label2.TextScaled = true
+label2.Font = Enum.Font.SourceSansBold
+label2.Parent = mainFrame
+
+local label3 = Instance.new("TextLabel")
+label3.Size = UDim2.new(1, -20, 0, 30)
+label3.Position = UDim2.new(0, 10, 0, 90)
+label3.BackgroundTransparency = 1
+label3.Text = "Left click to attack players"
+label3.TextColor3 = Color3.fromRGB(255, 255, 255)
+label3.TextStrokeTransparency = 0.3
+label3.TextScaled = true
+label3.Font = Enum.Font.SourceSansBold
+label3.Parent = mainFrame
+
+local toggleButton = Instance.new("TextButton")
+toggleButton.Name = "ToggleButton"
+toggleButton.Size = UDim2.new(0, 80, 0, 30)
+toggleButton.Position = UDim2.new(0, 10, 0, 125)
+toggleButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+toggleButton.BackgroundTransparency = 0.5
+toggleButton.Text = "Close"
+toggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+toggleButton.TextStrokeTransparency = 0.3
+toggleButton.TextScaled = true
+toggleButton.Font = Enum.Font.SourceSansBold
+toggleButton.Parent = mainFrame
+
+local fullSize = UDim2.new(0, 350, 0, 160)
+local minimizedSize = UDim2.new(0, 60, 0, 60)
+
+local minimized = false
+
+toggleButton.MouseButton1Click:Connect(function()
+	if minimized == false then
+		mainFrame.Visible = false
+		label1.Visible = false
+		label2.Visible = false
+		label3.Visible = false
+		toggleButton.Text = "Open"
+	else
+		mainFrame.Size = fullSize
+		label1.Visible = true
+		label2.Visible = true
+		label3.Visible = true
+		toggleButton.Text = "Close"
+	end
+	minimized = not minimized
+end)
+
+script.Name = 'Gay Chainsaw For Gay People'
+local me = game:GetService('Players').LocalPlayer
+local char = me.Character
+local hum = char['Humanoid']
+local hd = char['Head']
+local ts = char['Torso']
+local ra = char['Right Arm']
+local la = char['Left Arm']
+local rl = char['Right Leg']
+local ll = char['Left Leg']
+local root = char['HumanoidRootPart']
+local rj = root['RootJoint']
+local rs = ts['Right Shoulder']
+local ls = ts['Left Shoulder']
+local rh = ts['Right Hip']
+local lh = ts['Left Hip']
+local nk = ts['Neck']
+local hitsounds = {'703633905', '264486467' ,'356551938'}
+local sine = 0
+local change = 1
+local attack = false
+local cananim = true
+local equipped = false
+local cooldown = true
+local isonhit = false
+local backidle = false
+local hold = false
+local onrun = false
+local rj0 = rj.C0
+local rs0 = rs.C0
+local ls0 = ls.C0
+local rh0 = rh.C0
+local lh0 = lh.C0
+local nk0 = nk.C0
+local cc = workspace.CurrentCamera
+local cos = math.cos
+local sin = math.sin
+local rad = math.rad
+local rand = math.random
+local cfn = CFrame.new
+local cfa = CFrame.Angles
+local v3 = Vector3.new
+local ww = Instance.new('Sound', hd); ww.Looped = true; ww.Volume = 3; ww.SoundId = 'rbxassetid://'; ww.PlaybackSpeed = 0.51
+local ww2 = Instance.new('Sound', hd); ww2.Looped = true; ww2.Volume = 5; ww2.SoundId = 'rbxassetid://'
+local mouse = me:GetMouse()
+hum.Name = 'Gay Humanoid For Gay People'
+hum.Health = 'inf'
+hum.MaxHealth = 'inf'
+hum.WalkSpeed = 16
+hum.JumpPower = 50
+ww:Play()
+print([[
+	F - Equip Chainsaw
+	LMB - Chainsaw attack (Equipped)
+]])
+
+ArtificialHB = Instance.new('BindableEvent', script)
+ArtificialHB.Name = 'Heartbeat'
+script:WaitForChild('Heartbeat')
+
+frame = 1 / 60
+tf = 0
+allowframeloss = false
+tossremainder = false
+lastframe = tick()
+script.Heartbeat:Fire()
+
+game:GetService('RunService').Heartbeat:connect(function(s, p)
+	tf = tf + s
+	if tf >= frame then
+		if allowframeloss then
+			script.Heartbeat:Fire()
+			lastframe = tick()
+		else
+			for i = 1, math.floor(tf / frame) do
+				script.Heartbeat:Fire()
+			end
+			lastframe = tick()
+		end
+		if tossremainder then
+			tf = 0
+		else
+			tf = tf - frame * math.floor(tf / frame)
+		end
+	end
+end)
+
+local chainsaw = Instance.new('Part', char)
+local chainsaw2 = Instance.new('Part', char)
+local chainsawidle = Instance.new('Sound', chainsaw2)
+local chainsawON = Instance.new('Sound', chainsaw2)
+local asd = Instance.new('ParticleEmitter')
+chainsawmesh = Instance.new('SpecialMesh', chainsaw)
+chainsaw2mesh = Instance.new('SpecialMesh', chainsaw2)
+chainsawweld = Instance.new('ManualWeld', chainsaw)
+chainsaw2weld = Instance.new('ManualWeld', chainsaw2)
+chainsaw.CanCollide = false
+chainsaw2.CanCollide = false
+chainsaw.Size = v3(0, 0, 0)
+chainsaw2.Size = v3(1, 1, 4)
+chainsawmesh.Scale = v3(0.08, 0.08, 0.08)
+chainsaw2mesh.Scale = v3(0.08, 0.08, 0.08)
+chainsawmesh.MeshId = 'rbxassetid://536945307'
+chainsawmesh.TextureId = 'rbxassetid://536945378'
+chainsaw2mesh.MeshId = 'rbxassetid://536945307'
+chainsaw2mesh.TextureId = 'rbxassetid://536945378'
+chainsawweld.Part0 = ts
+chainsawweld.Part1 = chainsaw
+chainsaw2weld.Part0 = ra
+chainsaw2weld.Part1 = chainsaw2
+chainsawweld.C0 = cfn(0.2, -0.3, 0.65) * cfa(rad(-90), rad(90), rad(0))
+chainsaw2weld.C0 = cfn(0, 0, 0) * cfa(rad(0), rad(0), rad(0))
+chainsaw2.Transparency = 1
+chainsawidle.SoundId = 'rbxassetid://1165167610'
+chainsawON.SoundId = 'rbxassetid://1165167936'
+chainsawON.Volume = 2
+chainsawON.Looped = true
+chainsawidle.Volume = 3
+chainsawidle.Looped = true
+asd.Color = ColorSequence.new(Color3.new(1, 0, 0), Color3.new(.6, 0, 0))
+asd.LightEmission = .1
+asd.Size = NumberSequence.new(0.2)
+asd.Texture = 'rbxassetid://291880914'
+aaa = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.3),NumberSequenceKeypoint.new(1, 7)})
+bbb = NumberSequence.new({NumberSequenceKeypoint.new(0, 10), NumberSequenceKeypoint.new(0.01, 0), NumberSequenceKeypoint.new(1, 1)})
+asd.Transparency = bbb
+asd.Size = aaa
+asd.ZOffset = .9
+asd.Acceleration = Vector3.new(0, -5, 0)
+asd.LockedToPart = false
+asd.EmissionDirection = "Back"
+asd.Lifetime = NumberRange.new(1, 2)
+asd.Rotation = NumberRange.new(-100, 100)
+asd.RotSpeed = NumberRange.new(-100, 100)
+asd.Speed = NumberRange.new(10)
+asd.Enabled = false
+asd.VelocitySpread = 100
+
+function bloody(var, amount)
+	local particle = asd:Clone()
+	particle.Parent = var
+	particle:Emit(amount)
+end
+
+function csound(id, parent, volume, pitch)
+	local gaysound = Instance.new('Sound')
+	gaysound.Parent = parent
+	gaysound.SoundId = 'rbxassetid://'..id
+	gaysound.PlaybackSpeed = pitch
+	gaysound:Play()
+	game.Debris:AddItem(gaysound, 5)
+end
+
+function kill(var)
+	if player(var) then
+		bloody(var, 2)
+		local varhum = var.Parent:FindFirstChildOfClass('Humanoid')
+		csound(hitsounds[math.random(1, #hitsounds)], var, 5, 1)
+		if player(var).Parent:FindFirstChildOfClass('Humanoid').Health ~= 0 then
+			local torso = var.Parent:FindFirstChild('Torso') or var.Parent:FindFirstChild('UpperTorso')
+			aaa = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.3 * player(var).Size.X/5 * player(var).Size.Y/5 * player(var).Size.Z/5),NumberSequenceKeypoint.new(1, 7)})
+			asd.Size = aaa
+			bloody(torso, 2)
+			player(var).Parent:BreakJoints()
+			coroutine.wrap(function()
+				for i = 1, 15 do
+					hum.CameraOffset = hum.CameraOffset:lerp(v3(rand(-1, 1), rand(-1, 1), rand(-1, 1)), 0.5)
+					swait()
+				end
+			end)()
+			coroutine.wrap(function()
+				if attack then
+					hum.WalkSpeed = 19.9
+					wait(1)
+					hum.WalkSpeed = 14
+				end
+			end)()
+			local bv = Instance.new('BodyVelocity', var)
+			bv.MaxForce = v3(math.huge, math.huge, math.huge)
+			bv.Velocity = cfn(chainsaw2.Position, var.Position).lookVector*50
+			game.Debris:AddItem(bv, 0.1)
+		end
+	end
+end
+
+function clerp(a, b, t)
+	return a:lerp(b, t)
+end
+
+function player(var)
+	if var.Parent then
+		if var.Parent:IsA('Model') and var.Parent:FindFirstChildOfClass('Humanoid') then
+			if var.Parent:FindFirstChild('Torso') or var:FindFirstChild('Head') or var.Parent:FindFirstChild('UpperTorso') then
+				if var.Parent.Name ~= me.Name then
+					return var
+				end
+			end
+		end
+	end
+end
+
+function raycast(pos, direction, range, ignoredecendants)
+	return workspace:FindPartOnRay(Ray.new(pos, direction.unit * range), ignoredecendants)
+end
+
+function swait(t)
+	if t == 0 or t == nil then
+		script.Heartbeat.Event:Wait()
+	else
+		for i = 0, t do
+			script.Heartbeat.Event:Wait()
+		end
+	end
+end
+
+function activate()
+	attack = true
+	hold = true
+	chainsawidle:Pause()
+	aaa = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.3),NumberSequenceKeypoint.new(1, 7)})
+	asd.Size = aaa
+	hit = chainsaw2.Touched:connect(function(hit)
+		kill(hit)
+	end)
+	local bg = Instance.new('BodyGyro', root)
+	bg.MaxTorque = v3(0, 9000, 0)
+	bg.D = 400
+	bg.P = 9000
+	hum.WalkSpeed = 12
+	repeat
+		bg.CFrame = cfn(root.Position, mouse.Hit.p)
+		chainsaw2weld.C0 = chainsaw2weld.C0:lerp(cfn(-1, -1.55, -1.3) * cfa(rad(-30 + 10 * sin(sine/1)), rad(20 + 10 * sin(sine/1)), rad(10 + 10 * sin(sine/1))), 0.1)
+		if attack and equipped then
+			nk.C0 = clerp(nk.C0, nk0 * cfa(rad(3), rad(0), rad(0)) * cfn(0, 0, 0), .1)
+			rs.C0 = clerp(rs.C0, rs0 * cfa(rad(11), rad(-3 + 3 * cos(sine/2)), rad(52)) * cfn(0, -0, 0), .1)
+			ls.C0 = clerp(ls.C0, ls0 * cfa(rad(0), rad(-40 - 3 * cos(sine/2)), rad(-85)) * cfn(0, -0.95, 0), .1)
+			chainsawON:Resume()
+		end
+		swait()
+	until attack == false
+	hum.WalkSpeed = 16
+	bg:Destroy()
+	hit:disconnect()
+end
+
+function equip()
+	equipped = true
+	cananim = false
+	chainsaw.Transparency = 1
+	chainsaw2.Transparency = 0
+	hum.WalkSpeed = 16
+	chainsawidle.Volume = 3
+	chainsawidle:Resume()
+	ww:Pause()
+	ww2:Resume()
+	repeat
+		if attack == false and backidle == false then
+			chainsaw2weld.C0 = chainsaw2weld.C0:lerp(cfn(-2, -0.9, -0.3) * cfa(rad(-50 + 1 * sin(sine/1)), rad(75 + 1 * sin(sine/1)), rad(0 + 3 * sin(sine/1))), 1)
+		end
+		if backidle then
+			chainsaw2weld.C0 = chainsaw2weld.C0:lerp(cfn(-2, -0.9, -0.3) * cfa(rad(-50 + 10 * sin(sine/1)), rad(75 + 10 * sin(sine/1)), rad(0 + 10 * sin(sine/1))), 0.080)
+		end
+		if chainsawidle.IsPaused and equipped then
+			cc.FieldOfView = 70 + chainsawON.PlaybackLoudness/90
+			hum.CameraOffset = hum.CameraOffset:lerp(v3(rand(-1, 1), rand(-1, 1), rand(-1, 1)), chainsawON.PlaybackLoudness/5000)
+		end
+		if chainsawON.IsPlaying == false and equipped then
+			chainsawidle:Resume()
+		end
+		if chainsawidle.IsPlaying and equipped then
+			cc.FieldOfView = 70 + chainsawidle.PlaybackLoudness/90
+			hum.CameraOffset = hum.CameraOffset:lerp(v3(rand(-1, 1), rand(-1, 1), rand(-1, 1)), chainsawidle.PlaybackLoudness/5000)
+		end
+		hum.JumpPower = 0
+		if (root.Velocity * v3(1, 0, 1)).magnitude < 2 then
+			rj.C0 = clerp(rj.C0, rj0 * cfa(rad(0), rad(0), rad(0)) * cfn(0, 0, 0.07 * sin(sine/30)), .090)
+			nk.C0 = clerp(nk.C0, nk0 * cfa(rad(-5 * sin(sine/30)), rad(0), rad(0)) * cfn(0, 0, 0), .090)
+			if attack == false and equipped then
+				rs.C0 = clerp(rs.C0, rs0 * cfa(rad(11), rad(-3), rad(55)) * cfn(0, -0.2, 0), .090)
+				ls.C0 = clerp(ls.C0, ls0 * cfa(rad(-0), rad(-40), rad(-80)) * cfn(0, 0, 0), .1)
+			end
+			rh.C0 = clerp(rh.C0, rh0 * cfa(rad(-5), rad(-10), rad(0)) * cfn(0, -0.07 * sin(sine/30), 0), .1)
+			lh.C0 = clerp(lh.C0, lh0 * cfa(rad(-5), rad(10), rad(0)) * cfn(0, -0.07 * sin(sine/30), 0), .1)
+		elseif (root.Velocity * v3(1, 0, 1)).magnitude < 20 then
+			rj.C0 = clerp(rj.C0, rj0 * cfa(rad(6), rad(0) + root.RotVelocity.Y/40, rad(10 * sin(sine/6))) * cfn(0, 0, 0.010 + cos(sine/3)), 0.050)
+			nk.C0 = clerp(nk.C0, nk0 * cfa(rad(2 * sin(sine/6)), rad(-2 * sin(sine/6)), rad(-8 * sin(sine/6)) + root.RotVelocity.Y/50) * cfn(0, 0, 0), .050)
+			if attack == false and equipped then
+				rs.C0 = clerp(rs.C0, rs0 * cfa(rad(11), rad(-3), rad(55)) * cfn(0, -0.2, 0), 0.1)
+				ls.C0 = clerp(ls.C0, ls0 * cfa(rad(0), rad(-47), rad(-80)) * cfn(0, 0, 0), 0.1)
+			end
+			rh.C0 = clerp(rh.C0, rh0 * cfa(rad(0) + rl.RotVelocity.Y / 40, rad(0), rad(90 * sin(sine/6))) * cfn(-0.030 + cos(sine/6), -0.030 + cos(sine/6), 0), 0.080)
+		lh.C0 = clerp(lh.C0, lh0 * cfa(rad(0) + -ll.RotVelocity.Y / 40, rad(0), rad(90 * sin(sine/6))) * cfn(-0.030 + cos(sine/6), -0.010 - cos(sine/6), 0), 0.080)
+		end
+		swait()
+	until equipped == false
+end
+
+function unequip()
+	coroutine.wrap(function()
+		for i = 1, 15 do
+			chainsawidle.Volume = chainsawidle.Volume - 0.2
+			if chainsawidle.Volume <= 0 then
+				chainsawidle:Stop()
+			end
+			swait()
+		end
+	end)()
+	cananim = true
+	ww:Resume()
+	ww2:Pause()
+	cooldown = false
+	chainsawON:Stop()
+	hum.JumpPower = 50
+	chainsaw2.Transparency = 1
+	chainsaw.Transparency = 0
+	if onrun then
+		hum.WalkSpeed = 18
+	else
+		hum.WalkSpeed = 16
+	end
+	pcall(function()
+	hit:Disconnect()
+	end)
+	if root:FindFirstChildOfClass('BodyGyro') then
+		root:FindFirstChildOfClass('BodyGyro').Parent = nil
+	end
+	equipped = false
+	wait(0.5)
+	cooldown = true
+end
+
+mouse.Button1Down:connect(function()
+	if hold == false and equipped and attack == false then
+		hold = true
+		backidle = false
+		activate()
+	end
+end)
+
+mouse.Button1Up:connect(function()
+	if hold and attack then
+		hold = false
+		attack = false
+		backidle = true
+		chainsawON:Stop()
+	end
+end)
+
+mouse.KeyDown:connect(function(k)
+	if k == 'f' and equipped == false and cooldown then
+		equip()
+	elseif k == 'f' and equipped then
+		unequip()
+	end	
+end)
+
+mouse.KeyDown:connect(function(k)
+	if k == 'q' and equipped == false then
+		if onrun == false then
+			onrun = true
+			hum.WalkSpeed = 18
+		elseif onrun then
+			onrun = false
+			hum.WalkSpeed = 16
+		end
+	end
+end)
+
+while true do
+	sine = sine + change
+	local tsvel = (root.Velocity * v3(1, 0, 1)).magnitude
+	local verticalvel = (root.Velocity).y
+	local hitfloor = raycast(root.Position, (cfn(root.Position, root.Position + v3(0, -1, 0))).lookVector, 4 * 1, char)
+	if equipped == false then
+		cc.FieldOfView = 70 + ww.PlaybackLoudness/500
+		hum.CameraOffset = hum.CameraOffset:lerp(v3(rand(-1, 1), rand(-1, 1), rand(-1, 1)), ww.PlaybackLoudness/10000)
+		if equipped and ww2.IsPlaying then
+			cc.FieldOfView = 70 + ww2.PlaybackLoudness/500
+			hum.CameraOffset = hum.CameraOffset:lerp(v3(rand(-1, 1), rand(-1, 1), rand(-1, 1)), ww2.PlaybackLoudness/15000)
+		end
+	end
+	pcall(function()
+		for i,v in pairs(char:GetChildren()) do
+			if v:IsA('LocalScript') and v.Name == 'Animate' then
+				v.Parent = nil
+				for i,v in pairs(hum:GetPlayingAnimationTracks()) do
+					v:Stop()
+				end
+				coroutine.wrap(function()
+					wait(3)
+					for i,v in pairs(hum:GetChildren()) do
+						if v:IsA('Animator') then
+							v.Parent = nil
+						end
+					end
+				end)()
+			end
+		end
+	end)
+	if verticalvel > 1 and cananim and hitfloor == nil then
+		change = 1
+		rj.C0 = clerp(rj.C0, rj0 * cfa(rad(-10), rad(0) + root.RotVelocity.Y/30, rad(0)) * cfn(0, 0, 0), 0.1)
+		nk.C0 = clerp(nk.C0, nk0 * cfa(rad(-15), rad(0), rad(0)) * cfn(0, 0, 0), .1)
+		rs.C0 = clerp(rs.C0, rs0 * cfa(rad(-10), rad(0) + ra.RotVelocity.Y/30, rad(-0)) * cfn(0, -0, 0), .15)
+		ls.C0 = clerp(ls.C0, ls0 * cfa(rad(-10), rad(0) + la.RotVelocity.Y/30, rad(0)) * cfn(0, -0, -0), .15)
+		rh.C0 = clerp(rh.C0, rh0 * cfa(rad(0), rad(0), rad(-0)) * cfn(0.55, 1, 0), 0.1)
+		lh.C0 = clerp(lh.C0, lh0 * cfa(rad(0), rad(0), rad(0)) * cfn(0, 0, 0), 0.1)
+	elseif verticalvel < -1 and cananim and hitfloor == nil then
+		change = 1
+		rj.C0 = clerp(rj.C0, rj0 * cfa(rad(30), rad(0) - root.RotVelocity.Y/30, rad(0)) * cfn(0, 0, 0), 0.050)
+		nk.C0 = clerp(nk.C0, nk0 * cfa(rad(10), rad(0), rad(0)) * cfn(0, 0, 0), .1)
+		rs.C0 = clerp(rs.C0, rs0 * cfa(rad(-30), rad(0) - ra.RotVelocity.Y/30, rad(-0)) * cfn(0, -0.2, 0), .050)
+		ls.C0 = clerp(ls.C0, ls0 * cfa(rad(-30), rad(0) - la.RotVelocity.Y/30, rad(0)) * cfn(0, -0.2, -0), .050)
+		rh.C0 = clerp(rh.C0, rh0 * cfa(rad(0), rad(0), rad(-0)) * cfn(0.55, 1, 0), 0.1)
+		lh.C0 = clerp(lh.C0, lh0 * cfa(rad(0), rad(0), rad(0)) * cfn(0, 0, 0), 0.1)
+	elseif tsvel < 2 and cananim and hitfloor ~= nil then
+		change = 1
+		chainsawweld.C0 = chainsawweld.C0:lerp(cfn(-0.2, -0.3, 0.65) * cfa(rad(-90), rad(90), rad(0)), 0.1)
+		hum.CameraOffset = hum.CameraOffset:lerp(v3(0, 0, 0), 0.1)
+		rj.C0 = clerp(rj.C0, rj0 * cfa(rad(0), rad(0), rad(0)) * cfn(0, 0, 0.07 * sin(sine/30)), .1)
+		nk.C0 = clerp(nk.C0, nk0 * cfa(rad(-2 * sin(sine/30)), rad(0), rad(15)) * cfn(0, 0, 0), .1)
+		rs.C0 = clerp(rs.C0, rs0 * cfa(rad(-10), rad(-1 + 5 * sin(sine/30)), rad(-0)) * cfn(0, -0, 0), .1)
+		ls.C0 = clerp(ls.C0, ls0 * cfa(rad(-10), rad(1 + 5 * sin(sine/30)), rad(0)) * cfn(0, 0, 0), .1)
+		rh.C0 = clerp(rh.C0, rh0 * cfa(rad(-5), rad(-5), rad(0)) * cfn(0, -0.07 * sin(sine/30), 0), .1)
+		lh.C0 = clerp(lh.C0, lh0 * cfa(rad(-5), rad(5), rad(0)) * cfn(0, -0.07 * sin(sine/30), 0), .1)
+	elseif onrun == false and tsvel < 20 and cananim and hitfloor ~= nil then
+		change = 0.9
+		chainsawweld.C0 = chainsawweld.C0:lerp(cfn(-0.2, -0.3 + 0.2 * cos(sine/3), 0.65) * cfa(rad(-90) + -0.5 * cos(sine/3), rad(90), rad(0)), 0.030)
+		hum.CameraOffset = hum.CameraOffset:lerp(v3(0, 0, 0), 0.1)
+		rj.C0 = clerp(rj.C0, rj0 * cfa(rad(6), rad(0) + root.RotVelocity.Y/40, rad(10 * sin(sine/6))) * cfn(0, 0, -0.010 + cos(sine/3)), 0.050)
+		nk.C0 = clerp(nk.C0, nk0 * cfa(rad(2 * sin(sine/6)), rad(-2 * sin(sine/6)), rad(-8 * sin(sine/6)) + root.RotVelocity.Y/50) * cfn(0, 0, 0), .050)
+		rs.C0 = clerp(rs.C0, rs0 * cfa(rad(-5), rad(5 * cos(sine/6)), rad(-60 * sin(sine/6))) * cfn(0, -0, 0), 0.050)
+		ls.C0 = clerp(ls.C0, ls0 * cfa(rad(-5), rad(5 * cos(sine/6)), rad(-60 * sin(sine/6))) * cfn(0, 0, 0.050), 0.050)
+		rh.C0 = clerp(rh.C0, rh0 * cfa(rad(0) + rl.RotVelocity.Y / 40, rad(0), rad(90 * sin(sine/6))) * cfn(0.05 + cos(sine/6), 0.1 + cos(sine/6), 0), 0.080)
+		lh.C0 = clerp(lh.C0, lh0 * cfa(rad(0) + -ll.RotVelocity.Y / 40, rad(0), rad(90 * sin(sine/6))) * cfn(-0.05 + cos(sine/6), 0.1 - cos(sine/6), 0), 0.080)
+	elseif onrun and tsvel < 20 and cananim and hitfloor ~= nil then
+		change = 0.9
+		chainsawweld.C0 = chainsawweld.C0:lerp(cfn(-0.2, -0.3 + 0.2 * cos(sine/3), 0.65) * cfa(rad(-90) + -0.5 * cos(sine/3), rad(90), rad(0)), 0.050)
+		hum.CameraOffset = hum.CameraOffset:lerp(v3(0, 0, 0), 0.1)
+		rj.C0 = clerp(rj.C0, rj0 * cfa(rad(8), rad(0) + root.RotVelocity.Y/40, rad(10 * sin(sine/6))) * cfn(0, 0, 0.010 + cos(sine/3)), 0.060)
+		nk.C0 = clerp(nk.C0, nk0 * cfa(rad(2 * sin(sine/6)), rad(-2 * sin(sine/6)), rad(-8 * sin(sine/6)) + root.RotVelocity.Y/50) * cfn(0, 0, 0), .060)
+		rs.C0 = clerp(rs.C0, rs0 * cfa(rad(-5), rad(5 * cos(sine/6)), rad(-60 * sin(sine/6))) * cfn(0, -0, 0), 0.060)
+		ls.C0 = clerp(ls.C0, ls0 * cfa(rad(-5), rad(5 * cos(sine/6)), rad(-60 * sin(sine/6))) * cfn(0, 0, 0.060), 0.060)
+		rh.C0 = clerp(rh.C0, rh0 * cfa(rad(0) + rl.RotVelocity.Y / 40, rad(0), rad(90 * sin(sine/6))) * cfn(0.05 + cos(sine/6), 0.1 + cos(sine/6), 0), 0.090)
+		lh.C0 = clerp(lh.C0, lh0 * cfa(rad(0) + -ll.RotVelocity.Y / 40, rad(0), rad(90 * sin(sine/6))) * cfn(-0.05 + cos(sine/6), 0.1 - cos(sine/6), 0), 0.090)
+	end
+	if hum.WalkSpeed > 20 and onrun == false and attack == false then
+		hum.WalkSpeed = 16
+	elseif hum.WalkSpeed < 20 and onrun and attack == false then
+		hum.WalkSpeed = 18
+	end
+	swait()
+end
+end)
+
+UICorner_17.Parent = ChainSaw
+
+Spider.Name = "Spider"
+Spider.Parent = ScrollingFrame
+Spider.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Spider.Position = UDim2.new(0.0093457941, 0, 0.124283813, 0)
+Spider.Size = UDim2.new(0, 419, 0, 36)
+Spider.Font = Enum.Font.SourceSansBold
+Spider.Text = "   Spiderbot"
+Spider.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spider.TextSize = 20.000
+Spider.TextWrapped = true
+Spider.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_18.Parent = Spider
+
+InfGaunt.Name = "Inf Gaunt"
+InfGaunt.Parent = ScrollingFrame
+InfGaunt.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+InfGaunt.Position = UDim2.new(0.00934579596, 0, 0.261328787, 0)
+InfGaunt.Size = UDim2.new(0, 419, 0, 36)
+InfGaunt.Font = Enum.Font.SourceSansBold
+InfGaunt.Text = "    Infinity Gauntlet"
+InfGaunt.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfGaunt.TextSize = 20.000
+InfGaunt.TextWrapped = true
+InfGaunt.TextXAlignment = Enum.TextXAlignment.Left
+InfGaunt.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://14363099155")[1].Source)()
+end)
+
+UICorner_19.Parent = InfGaunt
+
+DemonClaws.Name = "DemonClaws"
+DemonClaws.Parent = ScrollingFrame
+DemonClaws.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+DemonClaws.Position = UDim2.new(0.00934579596, 0, 0.276674956, 0)
+DemonClaws.Size = UDim2.new(0, 419, 0, 36)
+DemonClaws.Font = Enum.Font.SourceSansBold
+DemonClaws.Text = "    Demon Claws"
+DemonClaws.TextColor3 = Color3.fromRGB(255, 255, 255)
+DemonClaws.TextSize = 20.000
+DemonClaws.TextWrapped = true
+DemonClaws.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_20.Parent = DemonClaws
+
+Fraud.Name = "Fraud"
+Fraud.Parent = ScrollingFrame
+Fraud.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Fraud.Position = UDim2.new(0.00934579596, 0, 0.292021126, 0)
+Fraud.Size = UDim2.new(0, 419, 0, 36)
+Fraud.Font = Enum.Font.SourceSansBold
+Fraud.Text = "	Fraud"
+Fraud.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fraud.TextSize = 20.000
+Fraud.TextWrapped = true
+Fraud.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_21.Parent = Fraud
+
+Nuke.Name = "Nuke"
+Nuke.Parent = ScrollingFrame
+Nuke.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Nuke.Position = UDim2.new(0.00934579596, 0, 0.321642816, 0)
+Nuke.Size = UDim2.new(0, 419, 0, 36)
+Nuke.Font = Enum.Font.SourceSansBold
+Nuke.Text = "    Nuke"
+Nuke.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nuke.TextSize = 20.000
+Nuke.TextWrapped = true
+Nuke.TextXAlignment = Enum.TextXAlignment.Left
+Nuke.MouseButton1Down:Connect(function()
+a = game.Lighting.Ambient
+music = Instance.new("Sound")
+music.Parent = game.Workspace
+music.SoundId = "rbxassetid://199837904"
+music.Volume = 10
+music.PlaybackSpeed = 0.9
+music.Playing = true
+h = Instance.new("Hint")
+h.Parent = game.Workspace 
+h.Text = "Tactical Nuke Incoming!!!"
+wait(3)
+ 
+for i =1 , 3 do
+	wait(0.5)
+	game.Lighting.Ambient = Color3.new(255, 0, 0)
+	wait(0.5)
+	game.Lighting.Ambient = a
+end
+h:Remove()
+cce = Instance.new("ColorCorrectionEffect",game.Lighting)
+cce.Brightness = 0
+for i=1, 10 do
+wait(0.1)
+cce.Brightness = cce.Brightness + 0.1
+end
+getplayers = game.Players:GetChildren()
+for a=1, #getplayers do
+wait(0.01)
+char = getplayers[a].Character
+char.Humanoid.Health = 0
+end
+wait(1)
+cce:Destroy()
+end)
+
+UICorner_22.Parent = Nuke
+
+Stand.Name = "Stand"
+Stand.Parent = ScrollingFrame
+Stand.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Stand.Position = UDim2.new(0.00934579596, 0, 0.352335185, 0)
+Stand.Size = UDim2.new(0, 419, 0, 36)
+Stand.Font = Enum.Font.SourceSansBold
+Stand.Text = "    Stand"
+Stand.TextColor3 = Color3.fromRGB(255, 255, 255)
+Stand.TextSize = 20.000
+Stand.TextWrapped = true
+Stand.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_23.Parent = Stand
+
+KJ.Name = "KJ"
+KJ.Parent = ScrollingFrame
+KJ.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+KJ.Position = UDim2.new(0.00934579596, 0, 0.306296647, 0)
+KJ.Size = UDim2.new(0, 419, 0, 36)
+KJ.Font = Enum.Font.SourceSansBold
+KJ.Text = "    KJ (Warning: Very Shitty)"
+KJ.TextColor3 = Color3.fromRGB(255, 255, 255)
+KJ.TextSize = 20.000
+KJ.TextWrapped = true
+KJ.TextXAlignment = Enum.TextXAlignment.Left
+KJ.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://17776365113")[1].Source)()
+end)
+
+UICorner_24.Parent = KJ
+
+clownvan.Name = "clown van"
+clownvan.Parent = ScrollingFrame
+clownvan.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+clownvan.Position = UDim2.new(0.00934579596, 0, 0.336989015, 0)
+clownvan.Size = UDim2.new(0, 419, 0, 36)
+clownvan.Font = Enum.Font.SourceSansBold
+clownvan.Text = "	Clown Van"
+clownvan.TextColor3 = Color3.fromRGB(255, 255, 255)
+clownvan.TextSize = 20.000
+clownvan.TextWrapped = true
+clownvan.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_25.Parent = clownvan
+
+Felipe.Name = "Felipe"
+Felipe.Parent = ScrollingFrame
+Felipe.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Felipe.Position = UDim2.new(0.00934579596, 0, 0.443698496, 0)
+Felipe.Size = UDim2.new(0, 419, 0, 36)
+Felipe.Font = Enum.Font.SourceSansBold
+Felipe.Text = "    Felipe (Warning: Loud As Hell)"
+Felipe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Felipe.TextSize = 20.000
+Felipe.TextWrapped = true
+Felipe.TextXAlignment = Enum.TextXAlignment.Left
+Felipe.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://5605396200")[1].Source)()
+end)
+
+UICorner_26.Parent = Felipe
+
+AmongUs.Name = "AmongUs"
+AmongUs.Parent = ScrollingFrame
+AmongUs.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+AmongUs.Position = UDim2.new(0.00934579596, 0, 0.398730636, 0)
+AmongUs.Size = UDim2.new(0, 419, 0, 36)
+AmongUs.Font = Enum.Font.SourceSansBold
+AmongUs.Text = "    Among Us"
+AmongUs.TextColor3 = Color3.fromRGB(255, 255, 255)
+AmongUs.TextSize = 20.000
+AmongUs.TextWrapped = true
+AmongUs.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_27.Parent = AmongUs
+
+ServerAdmin.Name = "ServerAdmin"
+ServerAdmin.Parent = ScrollingFrame
+ServerAdmin.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+ServerAdmin.Position = UDim2.new(0.00934579596, 0, 0.368038267, 0)
+ServerAdmin.Size = UDim2.new(0, 419, 0, 36)
+ServerAdmin.Font = Enum.Font.SourceSansBold
+ServerAdmin.Text = "    Server Admin"
+ServerAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+ServerAdmin.TextSize = 20.000
+ServerAdmin.TextWrapped = true
+ServerAdmin.TextXAlignment = Enum.TextXAlignment.Left
+ServerAdmin.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://4665394711")[1].Source)()
+end)
+
+UICorner_28.Parent = ServerAdmin
+
+Sniper.Name = "Sniper"
+Sniper.Parent = ScrollingFrame
+Sniper.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Sniper.Position = UDim2.new(0.00934579596, 0, 0.414076805, 0)
+Sniper.Size = UDim2.new(0, 419, 0, 36)
+Sniper.Font = Enum.Font.SourceSansBold
+Sniper.Text = "    50 BMG"
+Sniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sniper.TextSize = 20.000
+Sniper.TextWrapped = true
+Sniper.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_29.Parent = Sniper
+
+ElioBlasio.Name = "ElioBlasio"
+ElioBlasio.Parent = ScrollingFrame
+ElioBlasio.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+ElioBlasio.Position = UDim2.new(0.0093, 0, 0.4744, 0)
+ElioBlasio.Size = UDim2.new(0, 419, 0, 36)
+ElioBlasio.Font = Enum.Font.SourceSansBold
+ElioBlasio.Text = "    Elio Blasio"
+ElioBlasio.TextColor3 = Color3.fromRGB(255, 255, 255)
+ElioBlasio.TextSize = 20
+ElioBlasio.TextWrapped = true
+ElioBlasio.TextXAlignment = Enum.TextXAlignment.Left
+ElioBlasio.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://3283229226")[1].Source)
+end)
+
+UICorner_30.Parent = ElioBlasio
+
+DarthVader.Name = "Darth Vader"
+DarthVader.Parent = ScrollingFrame
+DarthVader.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+DarthVader.Position = UDim2.new(0.00934579596, 0, 0.428352326, 0)
+DarthVader.Size = UDim2.new(0, 419, 0, 36)
+DarthVader.Font = Enum.Font.SourceSansBold
+DarthVader.Text = "    Darth Vader"
+DarthVader.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarthVader.TextSize = 20.000
+DarthVader.TextWrapped = true
+DarthVader.TextXAlignment = Enum.TextXAlignment.Left
+DarthVader.MouseButton1Down:Connect(function()
+	loadstring(Game:GetObjects("rbxassetid://5441060212")[1].Source)()
+end)
+
+UICorner_31.Parent = DarthVader
+
+BanHammer.Name = "BanHammer"
+BanHammer.Parent = ScrollingFrame
+BanHammer.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+BanHammer.Position = UDim2.new(0.00934579596, 0, 0.383384466, 0)
+BanHammer.Size = UDim2.new(0, 419, 0, 36)
+BanHammer.Font = Enum.Font.SourceSansBold
+BanHammer.Text = "    Ban Hammer"
+BanHammer.TextColor3 = Color3.fromRGB(255, 255, 255)
+BanHammer.TextSize = 20.000
+BanHammer.TextWrapped = true
+BanHammer.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_32.Parent = BanHammer
+
+Caducus.Name = "Caducus"
+Caducus.Parent = ScrollingFrame
+Caducus.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Caducus.Position = UDim2.new(0.00934579596, 0, 0.459044695, 0)
+Caducus.Size = UDim2.new(0, 419, 0, 36)
+Caducus.Font = Enum.Font.SourceSansBold
+Caducus.Text = "    Caducus"
+Caducus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Caducus.TextSize = 20.000
+Caducus.TextWrapped = true
+Caducus.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_33.Parent = Caducus
+
+AK47.Name = "AK47"
+AK47.Parent = ScrollingFrame
+AK47.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+AK47.Position = UDim2.new(0.00934579596, 0, 0.245982587, 0)
+AK47.Size = UDim2.new(0, 419, 0, 36)
+AK47.Font = Enum.Font.SourceSansBold
+AK47.Text = "    AK-47"
+AK47.TextColor3 = Color3.fromRGB(255, 255, 255)
+AK47.TextSize = 20.000
+AK47.TextWrapped = true
+AK47.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_34.Parent = AK47
+
+Car.Name = "Car"
+Car.Parent = ScrollingFrame
+Car.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Car.Position = UDim2.new(0.00934579782, 0, 0.505083203, 0)
+Car.Size = UDim2.new(0, 419, 0, 36)
+Car.Font = Enum.Font.SourceSansBold
+Car.Text = "    Dababy Car"
+Car.TextColor3 = Color3.fromRGB(255, 255, 255)
+Car.TextSize = 20.000
+Car.TextWrapped = true
+Car.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_35.Parent = Car
+
+Chillingo.Name = "Chillingo"
+Chillingo.Parent = ScrollingFrame
+Chillingo.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Chillingo.Position = UDim2.new(0.00934579782, 0, 0.520429432, 0)
+Chillingo.Size = UDim2.new(0, 419, 0, 36)
+Chillingo.Font = Enum.Font.SourceSansBold
+Chillingo.Text = "    Chillingo"
+Chillingo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Chillingo.TextSize = 20.000
+Chillingo.TextWrapped = true
+Chillingo.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_36.Parent = Chillingo
+
+MLG.Name = "MLG"
+MLG.Parent = ScrollingFrame
+MLG.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+MLG.Position = UDim2.new(0.00934579782, 0, 0.535775602, 0)
+MLG.Size = UDim2.new(0, 419, 0, 36)
+MLG.Font = Enum.Font.SourceSansBold
+MLG.Text = "    MLG Gun"
+MLG.TextColor3 = Color3.fromRGB(255, 255, 255)
+MLG.TextSize = 20.000
+MLG.TextWrapped = true
+MLG.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_37.Parent = MLG
+
+Demon.Name = "Pen"
+Demon.Parent = ScrollingFrame
+Demon.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Demon.Position = UDim2.new(0.00934579782, 0, 0.565397263, 0)
+Demon.Size = UDim2.new(0, 419, 0, 36)
+Demon.Font = Enum.Font.SourceSansBold
+Demon.Text = "    Demon Staff"
+Demon.TextColor3 = Color3.fromRGB(255, 255, 255)
+Demon.TextSize = 20.000
+Demon.TextWrapped = true
+Demon.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_38.Parent = Demon
+
+FZ.Name = "FZ"
+FZ.Parent = ScrollingFrame
+FZ.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+FZ.Position = UDim2.new(0.00934579782, 0, 0.596089661, 0)
+FZ.Size = UDim2.new(0, 419, 0, 36)
+FZ.Font = Enum.Font.SourceSansBold
+FZ.Text = "    Frozen Zealot"
+FZ.TextColor3 = Color3.fromRGB(255, 255, 255)
+FZ.TextSize = 20.000
+FZ.TextWrapped = true
+FZ.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_39.Parent = FZ
+
+Memeus.Name = "Memeus"
+Memeus.Parent = ScrollingFrame
+Memeus.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Memeus.Position = UDim2.new(0.00934579782, 0, 0.550051093, 0)
+Memeus.Size = UDim2.new(0, 419, 0, 36)
+Memeus.Font = Enum.Font.SourceSansBold
+Memeus.Text = "   Memeus"
+Memeus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Memeus.TextSize = 20.000
+Memeus.TextWrapped = true
+Memeus.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_40.Parent = Memeus
+
+Chrono.Name = "Chrono"
+Chrono.Parent = ScrollingFrame
+Chrono.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Chrono.Position = UDim2.new(0.00934579782, 0, 0.580743492, 0)
+Chrono.Size = UDim2.new(0, 419, 0, 36)
+Chrono.Font = Enum.Font.SourceSansBold
+Chrono.Text = "    Chrono Gauntlets "
+Chrono.TextColor3 = Color3.fromRGB(255, 255, 255)
+Chrono.TextSize = 20.000
+Chrono.TextWrapped = true
+Chrono.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_41.Parent = Chrono
+
+Disasters.Name = "Disasters"
+Disasters.Parent = ScrollingFrame
+Disasters.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
+Disasters.Position = UDim2.new(0.00934579782, 0, 0.687452972, 0)
+Disasters.Size = UDim2.new(0, 419, 0, 36)
+Disasters.Font = Enum.Font.SourceSansBold
+Disasters.Text = "    Disasters"
+Disasters.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disasters.TextSize = 20.000
+Disasters.TextWrapped = true
+Disasters.TextXAlignment = Enum.TextXAlignment.Left
+Disasters.MouseButton1Down:Connect(function()
+local UTGDisasters = Instance.new("ScreenGui")
+UTGDisasters.Name = "UTGDisasters"
+UTGDisasters.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UTGDisasters.ResetOnSpawn = true
+
+local Frame = Instance.new("Frame")
+Frame.Name = "MainFrame"
+Frame.Parent = UTGDisasters
+Frame.Size = UDim2.new(0, 410, 0, 310)
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderSizePixel = 0
+Frame.BackgroundTransparency = 0
+
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(0, 18)
+UICorner.Parent = Frame
+
+local UIGradient = Instance.new("UIGradient")
+UIGradient.Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)),
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))
+}
+UIGradient.Parent = Frame
+
+local TitleShadow = Instance.new("TextLabel")
+TitleShadow.Name = "TitleShadow"
+TitleShadow.Parent = Frame
+TitleShadow.Position = UDim2.new(0, 1, 0, 1)
+TitleShadow.Size = UDim2.new(1, 0, 0, 50)
+TitleShadow.BackgroundTransparency = 1
+TitleShadow.Text = "UTG DISASTERS"
+TitleShadow.TextSize = 42
+TitleShadow.Font = Enum.Font.SourceSansBold
+TitleShadow.TextColor3 = Color3.fromRGB(0, 0, 0)
+TitleShadow.TextTransparency = 0.4
+TitleShadow.TextStrokeTransparency = 1
+TitleShadow.ZIndex = 1
+
+local Title = Instance.new("TextLabel")
+Title.Name = "Title"
+Title.Parent = Frame
+Title.Position = UDim2.new(0, 0, 0, 0)
+Title.Size = UDim2.new(1, 0, 0, 50)
+Title.BackgroundTransparency = 1
+Title.Text = "UTG DISASTERS"
+Title.TextSize = 40
+Title.Font = Enum.Font.SourceSansBold
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextWrapped = true
+Title.ZIndex = 2
+
+local DisasterList = Instance.new("ScrollingFrame")
+DisasterList.Name = "DisasterList"
+DisasterList.Parent = Frame
+DisasterList.Size = UDim2.new(1, -20, 0, 250)
+DisasterList.Position = UDim2.new(0, 10, 0, 50)
+DisasterList.CanvasSize = UDim2.new(0, 0, 0, 400)
+DisasterList.BackgroundColor3 = Color3.new(255, 255, 255)
+DisasterList.BackgroundTransparency = 0
+DisasterList.ScrollBarThickness = 0
+DisasterList.BorderSizePixel = 0
+
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = DisasterList
+
+local X = Instance.new("TextButton")
+X.Name = "X"
+X.Parent = Frame
+X.BackgroundColor3 = Color3.fromRGB(247, 114, 99)
+X.Position = UDim2.new(0.93569845, 0, -0.0337078646, 0)
+X.Size = UDim2.new(0, 50, 0, 50)
+X.Font = Enum.Font.SourceSansBold
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14
+X.TextWrapped = true
+X.MouseButton1Down:Connect(function()
+	UTGDisasters:Destroy()
+end)
+
+local UICorner2 = Instance.new("UICorner")
+UICorner2.CornerRadius = UDim.new(1, 0)
+UICorner2.Parent = X
+
+local UIS = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+	local delta = input.Position - dragStart
+	Frame.Position = UDim2.new(
+		startPos.X.Scale, startPos.X.Offset + delta.X,
+		startPos.Y.Scale, startPos.Y.Offset + delta.Y
+	)
+end
+
+Title.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Frame.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+Title.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+UIS.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
+
+local plr = game.Players.LocalPlayer
+
+plr.Chatted:Connect(function(chat)
+    if (chat == "/open utg") then
+        if script.Parent.Parent.Frame.Visible == true then
+            script.Parent.Parent.Frame.Visible = false
+        else
+            wait(4.5)
+            script.Parent.Parent.Frame.Visible = true
+        end
+    end
+end)
+end)
+
+UICorner_42.Parent = Disasters
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = Disasters
+newTag.BackgroundColor3 = Color3.fromRGB(4, 179, 7)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "GUI"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 25
+newTag.BorderSizePixel = 0
+
+GUI.Name = "GUI's"
+GUI.Parent = ScrollingFrame
+GUI.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
+GUI.Position = UDim2.new(0.00934579782, 0, 0.642485082, 0)
+GUI.Size = UDim2.new(0, 419, 0, 36)
+GUI.Font = Enum.Font.SourceSansBold
+GUI.Text = "    Graphical User Interface"
+GUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+GUI.TextSize = 20.000
+GUI.TextWrapped = true
+GUI.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_43.Parent = GUI
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = GUI
+newTag.BackgroundColor3 = Color3.fromRGB(4, 179, 7)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "GUI"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 25
+newTag.BorderSizePixel = 0
+
+Zeroith.Name = "Zeroith"
+Zeroith.Parent = ScrollingFrame
+Zeroith.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Zeroith.Position = UDim2.new(0.00934579782, 0, 0.611792743, 0)
+Zeroith.Size = UDim2.new(0, 419, 0, 36)
+Zeroith.Font = Enum.Font.SourceSansBold
+Zeroith.Text = "    Zeroith"
+Zeroith.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zeroith.TextSize = 20.000
+Zeroith.TextWrapped = true
+Zeroith.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_44.Parent = Zeroith
+
+ChatHax.Name = "ChatHax"
+ChatHax.Parent = ScrollingFrame
+ChatHax.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
+ChatHax.Position = UDim2.new(0.00934579782, 0, 0.657831252, 0)
+ChatHax.Size = UDim2.new(0, 419, 0, 36)
+ChatHax.Font = Enum.Font.SourceSansBold
+ChatHax.Text = "    Chat Hax"
+ChatHax.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatHax.TextSize = 20.000
+ChatHax.TextWrapped = true
+ChatHax.TextXAlignment = Enum.TextXAlignment.Left
+ChatHax.MouseButton1Down:Connect(function()
+local UTGDisasters = Instance.new("ScreenGui")
+UTGDisasters.Name = "UTGDisasters"
+UTGDisasters.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UTGDisasters.ResetOnSpawn = true
+
+local Frame = Instance.new("Frame")
+Frame.Name = "MainFrame"
+Frame.Parent = UTGDisasters
+Frame.Size = UDim2.new(0, 410, 0, 310)
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderSizePixel = 0
+Frame.BackgroundTransparency = 0
+
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(0, 18)
+UICorner.Parent = Frame
+
+local UIGradient = Instance.new("UIGradient")
+UIGradient.Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)),
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))
+}
+UIGradient.Parent = Frame
+
+local TitleShadow = Instance.new("TextLabel")
+TitleShadow.Name = "TitleShadow"
+TitleShadow.Parent = Frame
+TitleShadow.Position = UDim2.new(0, 1, 0, 1)
+TitleShadow.Size = UDim2.new(1, 0, 0, 50)
+TitleShadow.BackgroundTransparency = 1
+TitleShadow.Text = "UTG CHAT HAX"
+TitleShadow.TextSize = 42
+TitleShadow.Font = Enum.Font.SourceSansBold
+TitleShadow.TextColor3 = Color3.fromRGB(0, 0, 0)
+TitleShadow.TextTransparency = 0.4
+TitleShadow.TextStrokeTransparency = 1
+TitleShadow.ZIndex = 1
+
+local Title = Instance.new("TextLabel")
+Title.Name = "Title"
+Title.Parent = Frame
+Title.Position = UDim2.new(0, 0, 0, 0)
+Title.Size = UDim2.new(1, 0, 0, 50)
+Title.BackgroundTransparency = 1
+Title.Text = "UTG CHAT HAX"
+Title.TextSize = 40
+Title.Font = Enum.Font.SourceSansBold
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextWrapped = true
+Title.ZIndex = 2
+
+local TextBox = Instance.new("TextBox", Frame)
+TextBox.Name = "DisasterList"
+TextBox.Size = UDim2.new(0, 270, 0, 70)
+TextBox.AnchorPoint = Vector2.new(0.5, 0)
+TextBox.Position = UDim2.new(0.5, 0, 0, 55)
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.TextSize = 18
+TextBox.ClearTextOnFocus = true
+TextBox.Text = "Chat"
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.BorderSizePixel = 0
+
+Instance.new("UICorner", TextBox).CornerRadius = UDim.new(0, 15)
+
+local TextBox2 = Instance.new("TextBox", Frame)
+TextBox2.Name = "DisasterList"
+TextBox2.Size = UDim2.new(0, 270, 0, 70)
+TextBox2.AnchorPoint = Vector2.new(0.5, 0)
+TextBox2.Position = UDim2.new(0.5, 0, 0, 130)
+TextBox2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox2.TextColor3 = Color3.new(0, 0, 0)
+TextBox2.TextSize = 18
+TextBox2.ClearTextOnFocus = true
+TextBox2.Text = "Player"
+TextBox2.Font = Enum.Font.SourceSansBold
+TextBox2.BorderSizePixel = 0
+
+Instance.new("UICorner", TextBox2).CornerRadius = UDim.new(0, 15)
+
+local ChatButton = Instance.new("TextButton", Frame)
+ChatButton.Name = "DisasterList"
+ChatButton.Size = UDim2.new(0, 230, 0, 70)
+ChatButton.AnchorPoint = Vector2.new(0.5, 0)
+ChatButton.Position = UDim2.new(0.5, 0, 0, 210)
+ChatButton.BackgroundColor3 = Color3.fromRGB(137, 0, 254)
+ChatButton.TextColor3 = Color3.new(0, 0, 0)
+ChatButton.TextSize = 18
+ChatButton.Text = "Chat Player"
+ChatButton.Font = Enum.Font.SourceSansBold
+ChatButton.BorderSizePixel = 0
+ChatButton.MouseButton1Click:Connect(function()
+local targetName = "SomePlayerName"
+local player = Players:FindFirstChild(targetName)
+
+if player and player.Character and player.Character:FindFirstChild("Head") then
+	for i, msg in ipairs(messages) do
+		local color = colors[(i - 1) % #colors + 1]
+		ChatService:Chat(player.Character.Head, msg, color)
+		wait(1)
+	end
+end
+end)
+
+Instance.new("UICorner", ChatButton).CornerRadius = UDim.new(0, 15)
+
+local X = Instance.new("TextButton")
+X.Name = "X"
+X.Parent = Frame
+X.BackgroundColor3 = Color3.fromRGB(247, 114, 99)
+X.Position = UDim2.new(0.93569845, 0, -0.0337078646, 0)
+X.Size = UDim2.new(0, 50, 0, 50)
+X.Font = Enum.Font.SourceSansBold
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14
+X.TextWrapped = true
+X.MouseButton1Down:Connect(function()
+	UTGDisasters:Destroy()
+end)
+
+local UICorner2 = Instance.new("UICorner")
+UICorner2.CornerRadius = UDim.new(1, 0)
+UICorner2.Parent = X
+
+local UIS = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+	local delta = input.Position - dragStart
+	Frame.Position = UDim2.new(
+		startPos.X.Scale, startPos.X.Offset + delta.X,
+		startPos.Y.Scale, startPos.Y.Offset + delta.Y
+	)
+end
+
+Title.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Frame.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+Title.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+UIS.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
+end)
+
+UICorner_45.Parent = ChatHax
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = ChatHax
+newTag.BackgroundColor3 = Color3.fromRGB(4, 179, 7)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "GUI"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 25
+newTag.BorderSizePixel = 0
+
+InsanityPowers.Name = "InsanityPowers"
+InsanityPowers.Parent = ScrollingFrame
+InsanityPowers.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+InsanityPowers.Position = UDim2.new(0.00934579782, 0, 0.718145311, 0)
+InsanityPowers.Size = UDim2.new(0, 419, 0, 36)
+InsanityPowers.Font = Enum.Font.SourceSansBold
+InsanityPowers.Text = "    Insanity Powers"
+InsanityPowers.TextColor3 = Color3.fromRGB(255, 255, 255)
+InsanityPowers.TextSize = 20.000
+InsanityPowers.TextWrapped = true
+InsanityPowers.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_46.Parent = InsanityPowers
+
+ModelInserter.Name = "ModelInserter"
+ModelInserter.Parent = ScrollingFrame
+ModelInserter.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
+ModelInserter.Position = UDim2.new(0.00934579782, 0, 0.672106802, 0)
+ModelInserter.Size = UDim2.new(0, 419, 0, 36)
+ModelInserter.Font = Enum.Font.SourceSansBold
+ModelInserter.Text = "    Model Inserter"
+ModelInserter.TextColor3 = Color3.fromRGB(255, 255, 255)
+ModelInserter.TextSize = 20.000
+ModelInserter.TextWrapped = true
+ModelInserter.TextXAlignment = Enum.TextXAlignment.Left
+ModelInserter.MouseButton1Down:Connect(function()
+local UTGDisasters = Instance.new("ScreenGui")
+UTGDisasters.Name = "UTGDisasters"
+UTGDisasters.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UTGDisasters.ResetOnSpawn = true
+
+local Frame = Instance.new("Frame")
+Frame.Name = "MainFrame"
+Frame.Parent = UTGDisasters
+Frame.Size = UDim2.new(0, 410, 0, 280)
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderSizePixel = 0
+
+local UICorner = Instance.new("UICorner", Frame)
+UICorner.CornerRadius = UDim.new(0, 18)
+
+local UIGradient = Instance.new("UIGradient", Frame)
+UIGradient.Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(137, 0, 254)),
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 0, 255))
+}
+
+local TitleShadow = Instance.new("TextLabel", Frame)
+TitleShadow.Name = "TitleShadow"
+TitleShadow.Position = UDim2.new(0, 1, 0, 10)
+TitleShadow.Size = UDim2.new(1, 0, 0, 50)
+TitleShadow.BackgroundTransparency = 1
+TitleShadow.Text = "UTG MODEL INSERTER"
+TitleShadow.TextSize = 42
+TitleShadow.Font = Enum.Font.SourceSansBold
+TitleShadow.TextColor3 = Color3.fromRGB(0, 0, 0)
+TitleShadow.TextTransparency = 0.4
+TitleShadow.ZIndex = 1
+
+local Title = Instance.new("TextLabel", Frame)
+Title.Name = "Title"
+Title.Position = UDim2.new(0, 0, 0, 9)
+Title.Size = UDim2.new(1, 0, 0, 50)
+Title.BackgroundTransparency = 1
+Title.Text = "UTG MODEL INSERTER"
+Title.TextSize = 40
+Title.Font = Enum.Font.SourceSansBold
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextWrapped = true
+Title.ZIndex = 2
+
+local TextBox = Instance.new("TextBox", Frame)
+TextBox.Name = "DisasterList"
+TextBox.Size = UDim2.new(0, 270, 0, 70)
+TextBox.AnchorPoint = Vector2.new(0.5, 0)
+TextBox.Position = UDim2.new(0.5, 0, 0, 80)
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.TextSize = 18
+TextBox.ClearTextOnFocus = true
+TextBox.Text = "Enter model asset ID..."
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.BorderSizePixel = 0
+
+Instance.new("UICorner", TextBox).CornerRadius = UDim.new(0, 15)
+
+local InsertButton = Instance.new("TextButton", Frame)
+InsertButton.Name = "InsertButton"
+InsertButton.Size = UDim2.new(0, 120, 0, 50)
+InsertButton.AnchorPoint = Vector2.new(0.5, 0)
+InsertButton.Position = UDim2.new(0.5, 0, 0, 165)
+InsertButton.BackgroundColor3 = Color3.fromRGB(137, 0, 254)
+InsertButton.Text = "Insert"
+InsertButton.TextColor3 = Color3.new(1, 1, 1)
+InsertButton.TextSize = 18
+InsertButton.Font = Enum.Font.SourceSansBold
+InsertButton.BorderSizePixel = 0
+InsertButton.AutoButtonColor = false
+
+Instance.new("UICorner", InsertButton).CornerRadius = UDim.new(0, 15)
+
+InsertButton.MouseEnter:Connect(function()
+    InsertButton.BackgroundColor3 = Color3.fromRGB(70, 70, 220)
+end)
+InsertButton.MouseLeave:Connect(function()
+    InsertButton.BackgroundColor3 = Color3.fromRGB(50, 50, 180)
+end)
+
+InsertButton.MouseButton1Down:Connect(function()
+	wait(0.3)
+	local InsertService = game:GetService("InsertService")
+	local assetId = TextBox.Text
+	local model = InsertService:LoadAsset(assetId)
+
+	if model then
+		model.Parent = game.Workspace
+	else
+		warn("Failed to load model with asset ID: " .. assetId)
+	end
+end)
+
+local X = Instance.new("TextButton", Frame)
+X.Name = "X"
+X.BackgroundColor3 = Color3.fromRGB(247, 114, 99)
+X.Position = UDim2.new(0.93569845, 0, -0.0337078646, 0)
+X.Size = UDim2.new(0, 50, 0, 50)
+X.Font = Enum.Font.SourceSansBold
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextWrapped = true
+
+Instance.new("UICorner", X).CornerRadius = UDim.new(1, 0)
+
+X.MouseButton1Down:Connect(function()
+	UTGDisasters:Destroy()
+end)
+
+local UIS = game:GetService("UserInputService")
+local dragging, dragInput, dragStart, startPos
+
+local function update(input)
+	local delta = input.Position - dragStart
+	Frame.Position = UDim2.new(
+		startPos.X.Scale, startPos.X.Offset + delta.X,
+		startPos.Y.Scale, startPos.Y.Offset + delta.Y
+	)
+end
+
+Title.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Frame.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+Title.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+UIS.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
+end)
+
+UICorner_47.Parent = ModelInserter
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = ModelInserter
+newTag.BackgroundColor3 = Color3.fromRGB(4, 179, 7)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "GUI"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 25
+newTag.BorderSizePixel = 0
+
+Rokudayne.Name = "Rokudayne"
+Rokudayne.Parent = ScrollingFrame
+Rokudayne.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+Rokudayne.Position = UDim2.new(0.00934579782, 0, 0.627138913, 0)
+Rokudayne.Size = UDim2.new(0, 419, 0, 36)
+Rokudayne.Font = Enum.Font.SourceSansBold
+Rokudayne.Text = "    Rokudayne"
+Rokudayne.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rokudayne.TextSize = 20.000
+Rokudayne.TextWrapped = true
+Rokudayne.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_48.Parent = Rokudayne
+
+AnimationGUI.Name = "AnimationGUI"
+AnimationGUI.Parent = ScrollingFrame
+AnimationGUI.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
+AnimationGUI.Position = UDim2.new(0.00934579782, 0, 0.702799141, 0)
+AnimationGUI.Size = UDim2.new(0, 419, 0, 36)
+AnimationGUI.Font = Enum.Font.SourceSansBold
+AnimationGUI.Text = "    Animation gui"
+AnimationGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnimationGUI.TextSize = 20.000
+AnimationGUI.TextWrapped = true
+AnimationGUI.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_49.Parent = AnimationGUI
+
+local newTag = Instance.new("TextLabel")
+newTag.Name = "NewTag"
+newTag.Parent = AnimationGUI
+newTag.BackgroundColor3 = Color3.fromRGB(4, 179, 7)
+newTag.Position = UDim2.new(0.85, -10, 0.1, 0)
+newTag.Size = UDim2.new(0, 55, 0, 29)
+newTag.Text = "GUI"
+newTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+newTag.Font = Enum.Font.SourceSansBold
+newTag.TextSize = 25
+newTag.BorderSizePixel = 0
+
+Pillow.Name = "Pillow"
+Pillow.Parent = ScrollingFrame
+Pillow.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Pillow.Position = UDim2.new(0.00934579782, 0, 0.764183879, 0)
+Pillow.Size = UDim2.new(0, 419, 0, 36)
+Pillow.Font = Enum.Font.SourceSansBold
+Pillow.Text = "    Pillow"
+Pillow.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pillow.TextSize = 20.000
+Pillow.TextWrapped = true
+Pillow.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_50.Parent = Pillow
+
+Kara.Name = "Kara"
+Kara.Parent = ScrollingFrame
+Kara.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Kara.Position = UDim2.new(0.00934579782, 0, 0.779530048, 0)
+Kara.Size = UDim2.new(0, 419, 0, 36)
+Kara.Font = Enum.Font.SourceSansBold
+Kara.Text = "    Karambit"
+Kara.TextColor3 = Color3.fromRGB(255, 255, 255)
+Kara.TextSize = 20.000
+Kara.TextWrapped = true
+Kara.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_51.Parent = Kara
+
+BlackHole.Name = "BlackHole"
+BlackHole.Parent = ScrollingFrame
+BlackHole.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+BlackHole.Position = UDim2.new(0.00934579782, 0, 0.839844108, 0)
+BlackHole.Size = UDim2.new(0, 419, 0, 36)
+BlackHole.Font = Enum.Font.SourceSansBold
+BlackHole.Text = "    Black Hole"
+BlackHole.TextColor3 = Color3.fromRGB(255, 255, 255)
+BlackHole.TextSize = 20.000
+BlackHole.TextWrapped = true
+BlackHole.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_52.Parent = BlackHole
+
+Baldi.Name = "Baldi"
+Baldi.Parent = ScrollingFrame
+Baldi.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Baldi.Position = UDim2.new(0.00934579782, 0, 0.85554719, 0)
+Baldi.Size = UDim2.new(0, 419, 0, 36)
+Baldi.Font = Enum.Font.SourceSansBold
+Baldi.Text = "    Baldi"
+Baldi.TextColor3 = Color3.fromRGB(255, 255, 255)
+Baldi.TextSize = 20.000
+Baldi.TextWrapped = true
+Baldi.TextXAlignment = Enum.TextXAlignment.Left
+Baldi.MouseButton1Down:Connect(function()
+
+wait(0.3)		
+		
+plr = game.Players.LocalPlayer
+repeat wait() until plr.Character
+char = plr.Character
+
+for i,v in pairs(char:GetChildren()) do
+	if v.ClassName == "Part" then
+		v.Transparency = 1
+	elseif v.ClassName == "Accessory" then
+		v.Handle.Transparency = 1
+	end
+end
+char.Animate:Destroy()
+char.Humanoid.Animator:Destroy()
+local bill = Instance.new("BillboardGui",char.Head)
+bill.Name = "BaldiDisplay"
+bill.Adornee = bill.Parent
+bill.Size = UDim2.new(6, 0 , 7, 0)
+bill.Archivable = true
+bill.AutoLocalize = true
+local img = Instance.new("ImageLabel",bill)
+img.Size = UDim2.new(0.75, 0 , 1.5, 0)
+img.Image = "http://www.roblox.com/asset/?id=1983371401"
+img.Visible = true
+img.BackgroundTransparency = 1
+img.Position = UDim2.new(0.213, 0 , 0, 0)
+char.Humanoid.HipHeight = 2.1
+char.Humanoid.Name = "Baldi"
+Slap = Instance.new("Sound",char.Head)
+Slap.SoundId = "rbxassetid://1909185477"
+Slap.Volume = 10
+HEHEHEH = Instance.new("Sound",char)
+HEHEHEH.SoundId = "rbxassetid://2021702927"
+HEHEHEH.Volume = 4
+Screech = Instance.new("Sound",char.Head)
+Screech.SoundId = "rbxassetid://1784592449"
+Screech.Volume = 10
+GETOUTWHILEYOUSTILLCAN = Instance.new("Sound",char)
+GETOUTWHILEYOUSTILLCAN.SoundId = "rbxassetid://1846448410"
+GETOUTWHILEYOUSTILLCAN:Play()
+GETOUTWHILEYOUSTILLCAN.Volume = 4
+JumpCount = 0
+char.Head.face.Transparency = 1
+char.Baldi.MaxHealth = 0
+touched = false
+char.Torso.Touched:connect(function(part)
+	local human = part.Parent:FindFirstChildOfClass("Humanoid") 
+	if human and human.Parent.Name ~= char.Name and touched == false then
+		human.Health = 0
+		Screech:Play()
+		touched = true
+        wait(0.9)
+     if JumpCount == 0 and human.Jump then
+        JumpCount = 1
+        else
+        touched = false
+        JumpCount = 0  
+        end
+        wait(1)
+        if JumpCount == 1 and human.Jump then
+        JumpCount = 2
+        else  
+        JumpCount = 0
+        end
+        wait(1)
+        if JumpCount == 2 and human.Jump then
+        JumpCount = 3
+        else
+        JumpCount = 0  
+        end
+        wait(1)
+        if JumpCount == 3 and human.Jump then
+        JumpCount = 4
+        else  
+        JumpCount = 0
+        end
+        wait(1)
+        if JumpCount == 4 and human.Jump then
+        JumpCount = 0
+        wait(1)
+        touched = false
+        char.Baldi.Walkspeed = 16
+        human.WalkSpeed = 16
+        else
+        JumpCount = 0
+		end	
+	end
+end)
+while true do
+	wait()
+	img.Image = "http://www.roblox.com/asset/?id=1983155193"
+	char.Baldi.WalkSpeed = 100
+	Slap:Play()
+	wait(0.10)
+	img.Image = "http://www.roblox.com/asset/?id=1983154100"
+	wait(0.05)
+	img.Image = "http://www.roblox.com/asset/?id=1983152544"
+	wait(0.05)
+	img.Image = "http://www.roblox.com/asset/?id=1983150889"
+	wait(0.05)
+	img.Image = "http://www.roblox.com/asset/?id=1983371401"
+	char.Baldi.WalkSpeed = 0
+	wait(0.60)
+end
+end)
+
+UICorner_53.Parent = Baldi
+
+bbc.Name = "British Broadcasting Channel"
+bbc.Parent = ScrollingFrame
+bbc.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+bbc.Position = UDim2.new(0.00934579782, 0, 0.915861249, 0)
+bbc.Size = UDim2.new(0, 419, 0, 36)
+bbc.Font = Enum.Font.SourceSansBold
+bbc.Text = "    Banzai Bazooka"
+bbc.TextColor3 = Color3.fromRGB(255, 255, 255)
+bbc.TextSize = 20.000
+bbc.TextWrapped = true
+bbc.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_54.Parent = bbc
+
+TouchKill.Name = "TouchKill"
+TouchKill.Parent = ScrollingFrame
+TouchKill.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+TouchKill.Position = UDim2.new(0.00934579782, 0, 0.809151709, 0)
+TouchKill.Size = UDim2.new(0, 419, 0, 36)
+TouchKill.Font = Enum.Font.SourceSansBold
+TouchKill.Text = "    Touch Kill"
+TouchKill.TextColor3 = Color3.fromRGB(255, 255, 255)
+TouchKill.TextSize = 20.000
+TouchKill.TextWrapped = true
+TouchKill.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_55.Parent = TouchKill
+
+TakeTheL.Name = "TakeTheL"
+TakeTheL.Parent = ScrollingFrame
+TakeTheL.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+TakeTheL.Position = UDim2.new(0.00934579782, 0, 0.824497938, 0)
+TakeTheL.Size = UDim2.new(0, 419, 0, 36)
+TakeTheL.Font = Enum.Font.SourceSansBold
+TakeTheL.Text = "    Take The L"
+TakeTheL.TextColor3 = Color3.fromRGB(255, 255, 255)
+TakeTheL.TextSize = 20.000
+TakeTheL.TextWrapped = true
+TakeTheL.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_56.Parent = TakeTheL
+
+Grabknife.Name = "Grab Knife"
+Grabknife.Parent = ScrollingFrame
+Grabknife.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Grabknife.Position = UDim2.new(0.00934579782, 0, 0.886239529, 0)
+Grabknife.Size = UDim2.new(0, 419, 0, 36)
+Grabknife.Font = Enum.Font.SourceSansBold
+Grabknife.Text = "	Knife And Pistol"
+Grabknife.TextColor3 = Color3.fromRGB(255, 255, 255)
+Grabknife.TextSize = 20.000
+Grabknife.TextWrapped = true
+Grabknife.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_57.Parent = Grabknife
+
+Rtx.Name = "Rtx"
+Rtx.Parent = ScrollingFrame
+Rtx.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Rtx.Position = UDim2.new(0.00934579782, 0, 0.901585698, 0)
+Rtx.Size = UDim2.new(0, 419, 0, 36)
+Rtx.Font = Enum.Font.SourceSansBold
+Rtx.Text = "    RTX"
+Rtx.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rtx.TextSize = 20.000
+Rtx.TextWrapped = true
+Rtx.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_58.Parent = Rtx
+
+RainbowKing.Name = "RainbowKing"
+RainbowKing.Parent = ScrollingFrame
+RainbowKing.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+RainbowKing.Position = UDim2.new(0.00934579782, 0, 0.79380554, 0)
+RainbowKing.Size = UDim2.new(0, 419, 0, 36)
+RainbowKing.Font = Enum.Font.SourceSansBold
+RainbowKing.Text = "    Rainbow King"
+RainbowKing.TextColor3 = Color3.fromRGB(255, 255, 255)
+RainbowKing.TextSize = 20.000
+RainbowKing.TextWrapped = true
+RainbowKing.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_59.Parent = RainbowKing
+
+Gun.Name = "Gun"
+Gun.Parent = ScrollingFrame
+Gun.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Gun.Position = UDim2.new(0.00934579782, 0, 0.931207418, 0)
+Gun.Size = UDim2.new(0, 419, 0, 36)
+Gun.Font = Enum.Font.SourceSansBold
+Gun.Text = "    Gun"
+Gun.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gun.TextSize = 20.000
+Gun.TextWrapped = true
+Gun.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_60.Parent = Gun
+
+PixelCar.Name = "PixelCar"
+PixelCar.Parent = ScrollingFrame
+PixelCar.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+PixelCar.Position = UDim2.new(0.00934579782, 0, 0.961899757, 0)
+PixelCar.Size = UDim2.new(0, 419, 0, 36)
+PixelCar.Font = Enum.Font.SourceSansBold
+PixelCar.Text = "    Pixel Car"
+PixelCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+PixelCar.TextSize = 20.000
+PixelCar.TextWrapped = true
+PixelCar.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_61.Parent = PixelCar
+
+HellRobotics.Name = "HellRobotics"
+HellRobotics.Parent = ScrollingFrame
+HellRobotics.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+HellRobotics.Position = UDim2.new(0.00934579782, 0, 0.748837709, 0)
+HellRobotics.Size = UDim2.new(0, 419, 0, 36)
+HellRobotics.Font = Enum.Font.SourceSansBold
+HellRobotics.Text = "    Hell Robotics"
+HellRobotics.TextColor3 = Color3.fromRGB(255, 255, 255)
+HellRobotics.TextSize = 20.000
+HellRobotics.TextWrapped = true
+HellRobotics.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_62.Parent = HellRobotics
+
+Titain.Name = "Titain"
+Titain.Parent = ScrollingFrame
+Titain.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Titain.Position = UDim2.new(0.00934579782, 0, 0.946553588, 0)
+Titain.Size = UDim2.new(0, 419, 0, 36)
+Titain.Font = Enum.Font.SourceSansBold
+Titain.Text = "    Titain"
+Titain.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titain.TextSize = 20.000
+Titain.TextWrapped = true
+Titain.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_63.Parent = Titain
+
+Neko.Name = "Neko"
+Neko.Parent = ScrollingFrame
+Neko.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Neko.Position = UDim2.new(0.00934579782, 0, 0.870893359, 0)
+Neko.Size = UDim2.new(0, 419, 0, 36)
+Neko.Font = Enum.Font.SourceSansBold
+Neko.Text = "    Neko"
+Neko.TextColor3 = Color3.fromRGB(255, 255, 255)
+Neko.TextSize = 20.000
+Neko.TextWrapped = true
+Neko.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_64.Parent = Neko
+
+Zen.Name = "Zen"
+Zen.Parent = ScrollingFrame
+Zen.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Zen.Position = UDim2.new(0.00934579782, 0, 0.73349148, 0)
+Zen.Size = UDim2.new(0, 419, 0, 36)
+Zen.Font = Enum.Font.SourceSansBold
+Zen.Text = "    Zen"
+Zen.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zen.TextSize = 20.000
+Zen.TextWrapped = true
+Zen.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_65.Parent = Zen
+
+BaseballBat.Name = "BaseballBat"
+BaseballBat.Parent = ScrollingFrame
+BaseballBat.BackgroundColor3 = Color3.fromRGB(250, 128, 114)
+BaseballBat.Position = UDim2.new(0.00934579782, 0, 0.489737064, 0)
+BaseballBat.Size = UDim2.new(0, 419, 0, 36)
+BaseballBat.Font = Enum.Font.SourceSansBold
+BaseballBat.Text = "    Baseball Bat"
+BaseballBat.TextColor3 = Color3.fromRGB(255, 255, 255)
+BaseballBat.TextSize = 20.000
+BaseballBat.TextWrapped = true
+BaseballBat.TextXAlignment = Enum.TextXAlignment.Left
+BaseballBat.MouseButton1Down:Connect(function()
+--Paid Script By LilTywan--
+mouse = game.Players.LocalPlayer:GetMouse()
+using = false
+attack = false
+bat = Instance.new("Part", game.Players.LocalPlayer.Character)
+bat.Size = Vector3.new(1, 1, 5)
+bat.CanCollide = false
+bat:BreakJoints()
+baseballhit = Instance.new("Sound", bat)
+baseballhit.Volume = 10
+baseballhit.SoundId = "rbxassetid://175024455"
+swinging = Instance.new("Sound", bat)
+swinging.Volume = 10
+swinging.PlaybackSpeed = 1.2
+swinging.SoundId = "rbxassetid://147722227"
+weld = Instance.new("Weld", bat)
+weld.Part0 = game.Players.LocalPlayer.Character["Right Arm"]
+weld.Part1 = bat
+weld.C0 = weld.C0 * CFrame.Angles(0,3.15,0) * CFrame.new(0,-0.95,1.9)
+mesh = Instance.new("SpecialMesh", bat)
+mesh.MeshId = "http://www.roblox.com/asset/?id=54983181"
+mesh.TextureId = "http://www.roblox.com/asset/?id=54983107"
+mesh.Scale = Vector3.new(2,2,2)
+local rhandweld = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
+rhandweld.Part0 = game.Players.LocalPlayer.Character.Torso
+rhandweld.Part1 = game.Players.LocalPlayer.Character["Right Arm"]
+rhandweld.C0 = CFrame.new(1.5, 0.5, 0, 0, 0, 1, 0, 1, 0, -1, 0, 0)
+rhandweld.C1 = CFrame.new(0, 0.5, 0, 0, 0, 1, 0, 1, 0, -1, 0, 0)
+local lhandweld = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
+lhandweld.Part0 = game.Players.LocalPlayer.Character.Torso
+lhandweld.Part1 = game.Players.LocalPlayer.Character["Left Arm"]
+lhandweld.C0 = CFrame.new(-1.5, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+lhandweld.C1 = CFrame.new(0, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+for i = 1,20 do
+	wait()
+	game.Players.LocalPlayer.Character.Torso.Neck.C0 = game.Players.LocalPlayer.Character.Torso.Neck.C0 * CFrame.Angles(0,0,0.09)
+	lhandweld.C0 = lhandweld.C0 * CFrame.Angles(0,0,-0.12)
+	rhandweld.C0 = rhandweld.C0 * CFrame.Angles(0,0,0.13)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 = game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 * CFrame.Angles(0,0,-0.1)
+end
+for i = 1,20 do
+	wait()
+	lhandweld.C0 = lhandweld.C0 * CFrame.Angles(0.08,0,0) * CFrame.new(0,-0.1,0)
+end
+function swing(key)
+	key = key:lower()
+	if key == "e" then
+		if not using then
+			using = true
+			local detect = Instance.new("Part", bat)
+			detect.Size = Vector3.new(1,1,4.5)
+			detect:BreakJoints()
+			detect.CanCollide = false
+			detect.Transparency = 1
+		    local welding = Instance.new("Weld", detect)
+		    welding.Part0 = bat
+		    welding.Part1 = detect
+		    local function rip(part)
+			if not attack then
+			attack = true
+			local humanoid = part.Parent:findFirstChild("Humanoid")
+			root = part.Parent:findFirstChild("HumanoidRootPart")
+			local joint = root:findFirstChild("RootJoint")
+			local torso = part.Parent:findFirstChild("Torso")
+			local head = part.Parent:findFirstChild("Head")
+			if head ~= nil then
+			if torso ~= nil then
+			if humanoid ~= nil then
+				if root ~= nil then
+					if joint ~= nil then
+						baseballhit:Play()
+						head.Died.Volume = 20
+						head.Died:Play()
+						humanoid.WalkSpeed = 0
+						humanoid.JumpPower = 0
+						for i = 1,15 do
+			            wait(0.02)
+			            torso["Right Shoulder"].C1 = torso["Right Shoulder"].C1 * CFrame.Angles(0.06,0,0)
+						torso["Left Shoulder"].C1 = torso["Left Shoulder"].C1 * CFrame.Angles(0.03,0,0)
+		            	joint.C1 = joint.C1 * CFrame.Angles(-0.11,0,0)
+		            	joint.C1 = joint.C1 * CFrame.new(0,0.4,0)
+		            	torso["Left Hip"].C1 = torso["Left Hip"].C1 * CFrame.Angles(0.01,0,0)
+		            	torso["Right Hip"].C1 = torso["Right Hip"].C1 * CFrame.Angles(0.005,0,0)
+		                end --end of anim
+                        wait(1.2)
+                        attack = false
+                        torso.Anchored = true
+                   end --end of joint nil
+				end -- end of root nil
+			end -- end of humanoid nil
+			end -- end of torso nil
+			end -- end if head nil
+			end -- end of not attacked
+		    end -- end of function (rip)
+		    detect.Touched:connect(rip)
+            for i = 1,7 do
+	        wait()
+	        rhandweld.C0 = rhandweld.C0 * CFrame.Angles(0,0,-0.3)
+	        game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 = game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 * CFrame.Angles(0,0,0.5)
+            end
+            detect:destroy()
+            for i = 1,7 do
+	        wait()
+	        rhandweld.C0 = rhandweld.C0 * CFrame.Angles(0,0,0.3)
+	        game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 = game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint.C0 * CFrame.Angles(0,0,-0.5)
+            end
+			using = false
+		end --end of is not using then
+	end --end of if key
+end --end of swing function
+mouse.KeyDown:connect(swing)
+end)
+
+UICorner_66.Parent = BaseballBat
+
+Eggdog.Name = "Eggdog"
+Eggdog.Parent = ScrollingFrame
+Eggdog.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Eggdog.Position = UDim2.new(0.00934579782, 0, 0.977602839, 0)
+Eggdog.Size = UDim2.new(0, 419, 0, 36)
+Eggdog.Font = Enum.Font.SourceSansBold
+Eggdog.Text = "    Eggdog"
+Eggdog.TextColor3 = Color3.fromRGB(255, 255, 255)
+Eggdog.TextSize = 20.000
+Eggdog.TextWrapped = true
+Eggdog.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_67.Parent = Eggdog
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(4, 179, 7)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0223718882, 0, 0.834973812, 0)
+Credits.Size = UDim2.new(0, 428, 0, 36)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Created by YepImSirPwnsAlot"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 23
+Credits.TextWrapped = true
+
+UICorner_68.CornerRadius = UDim.new(0, 15)
+UICorner_68.Parent = Credits
+
+Respawn.Name = "Respawn"
+Respawn.Parent = Main
+Respawn.BackgroundColor3 = Color3.fromRGB(119, 221, 119)
+Respawn.Position = UDim2.new(0.72, 0, 0.915730357, 0)
+Respawn.Size = UDim2.new(0, 115, 0, 35)
+Respawn.Font = Enum.Font.SourceSansBold
+Respawn.Text = "Respawn"
+Respawn.TextColor3 = Color3.fromRGB(0, 128, 0)
+Respawn.TextSize = 30
+Respawn.MouseButton1Click:Connect(function()
+	respawn()
+end)
+
+function respawn()
+	local char = game.Players.LocalPlayer.Character
+	if char:FindFirstChildOfClass("Humanoid") then char:FindFirstChildOfClass("Humanoid"):ChangeState(2) end
+	char:ClearAllChildren()
+	local newChar = Instance.new("Model")
+	newChar.Parent = workspace
+	game.Players.LocalPlayer.Character = newChar
+	wait()
+	game.Players.LocalPlayer.Character = char
+	newChar:Destroy()
+end
+
+UICorner_69.CornerRadius = UDim.new(0, 15)
+UICorner_69.Parent = Respawn
+
+AntiFling.Name = "AntiFling"
+AntiFling.Parent = Main
+AntiFling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiFling.Position = UDim2.new(0.0245891828, 0, 0.915730357, 0)
+AntiFling.Size = UDim2.new(0, 305, 0, 35)
+AntiFling.Font = Enum.Font.SourceSans
+AntiFling.Text = "Player"
+AntiFling.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiFling.TextSize = 25
+
+UICorner_71.CornerRadius = UDim.new(0, 15)
+UICorner_71.Parent = AntiFling
+
+X.Name = "X"
+X.Parent = Main
+X.BackgroundColor3 = Color3.fromRGB(247, 114, 99)
+X.Position = UDim2.new(0.93569845, 0, -0.0337078646, 0)
+X.Size = UDim2.new(0, 50, 0, 50)
+X.Font = Enum.Font.SourceSansBold
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+X.MouseButton1Down:Connect(function()
+	Main.Visible = false
+	OpenUtg.Visible = true
+end)
+
+UICorner_72.CornerRadius = UDim.new(1, 0)
+UICorner_72.Parent = X
+
+OpenUtg.Name = "OpenUtg"
+OpenUtg.Parent = UltimateTrollingGuiV6
+OpenUtg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenUtg.BackgroundTransparency = 1.000
+OpenUtg.Position = UDim2.new(0.816202641, 0, 0.817640007, 0)
+OpenUtg.Size = UDim2.new(0, 200, 0, 50)
+OpenUtg.Visible = false
+OpenUtg.Font = Enum.Font.SourceSansBold
+OpenUtg.Text = "UTG"
+OpenUtg.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenUtg.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+OpenUtg.TextStrokeTransparency = 0
+OpenUtg.TextScaled = true
+OpenUtg.TextSize = 20
+OpenUtg.MouseButton1Down:Connect(function()
+	Main.Visible = true
+	OpenUtg.Visible = false
+end)
+
+local subtext = Instance.new("TextLabel")
+subtext.Name = "SubText"
+subtext.Parent = OpenUtg
+subtext.BackgroundTransparency = 1
+subtext.Position = UDim2.new(0, 0, 1, -10)
+subtext.Size = UDim2.new(1, 0, 0, 20)
+subtext.Font = Enum.Font.SourceSansBold
+subtext.Text = "(Click To Toggle)"
+subtext.TextColor3 = Color3.fromRGB(255, 255, 255)
+subtext.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+subtext.TextStrokeTransparency = 0
+subtext.TextScaled = true
+
+task.spawn(function()
+	local colors = {
+		Color3.fromRGB(255, 0, 0),
+		Color3.fromRGB(255, 255, 0),
+		Color3.fromRGB(0, 0, 255),
+		Color3.fromRGB(128, 0, 128),
+		Color3.fromRGB(255, 165, 0),
+		Color3.fromRGB(0, 255, 0),
+		Color3.fromRGB(255, 51, 153),
+	}
+
+	local currentIndex = 1
+	local nextIndex = 2
+
+	while true do
+		local currentColor = colors[currentIndex]
+		local nextColor = colors[nextIndex]
+
+		for step = 0, 1, 0.02 do
+			local lerped = currentColor:Lerp(nextColor, step)
+			OpenUtg.TextStrokeColor3 = lerped
+			subtext.TextStrokeColor3 = lerped
+			wait(0.03)
+		end
+
+		currentIndex = nextIndex
+		nextIndex = (nextIndex % #colors) + 1
+	end
+end)
+
+local UIS = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+	local delta = input.Position - dragStart
+	Main.Position = UDim2.new(
+		startPos.X.Scale, startPos.X.Offset + delta.X,
+		startPos.Y.Scale, startPos.Y.Offset + delta.Y
+	)
+end
+
+Title.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Main.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+Title.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+UIS.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
+
+Main:TweenPosition(UDim2.new(0.382, 0, 0.181, 0), "Out", "Quad", 0.5, true)
